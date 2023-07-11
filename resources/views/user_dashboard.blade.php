@@ -49,7 +49,7 @@
                 <ul class="navbar-nav mx-3 ms-auto">
                     <li class="nav-item" style="margin-right: 25px; margin-top:15px">
                         <a class="nav-link active text-white" aria-current="page" href="#">
-                            <p>gugugugugu</p>
+                            <p>tes</p>
                         </a>
                     </li>
                     <li class="nav-item" style="margin-right: 25px; margin-top:15px">
