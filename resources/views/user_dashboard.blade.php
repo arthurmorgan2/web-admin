@@ -39,7 +39,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: #A0522D">
         <div class="container">
-            <a class="navbar-brand"><img src="{{ asset('assets/img/LOGO1.png') }}" width="160px" height="60px"></a>
+            <a class="navbar-brand"><img src="{{ asset('assets/img/LOGO1.png') }}" width="330px" height="60px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
