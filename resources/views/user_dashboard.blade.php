@@ -37,7 +37,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: #A0522D">
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: #ac0606">
         <div class="container">
             <a class="navbar-brand"><img src="{{ asset('assets/img/LOGO1.png') }}" width="330px" height="60px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,7 +49,7 @@
                 <ul class="navbar-nav mx-3 ms-auto">
                     <li class="nav-item" style="margin-right: 25px; margin-top:15px">
                         <a class="nav-link active text-white" aria-current="page" href="#">
-                            <p>tes</p>
+                            <p>HOME</p>
                         </a>
                     </li>
                     <li class="nav-item" style="margin-right: 25px; margin-top:15px">
@@ -154,7 +154,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <nav class="navbar navbar-expand-lg" style="background-color: #c06d47; height:30px;">
+        <nav class="navbar navbar-expand-lg" style="background-color: #ac0606; height:30px;">
             <div class="container-fluid">
             </div>
         </nav>
@@ -328,7 +328,7 @@
             <div class="footer myfooter">
                 <div class="w-100">
                     <div _ngcontent-wcl-c173="" class="row justify-content-center pb-3"
-                        style="background-color: #a7735b; color: white;">
+                        style="background-color: #ac0606; color: white;">
                         <div _ngcontent-wcl-c173="" class="logo-footer"
                             style="display: flex; justify-content: center;">
                             <img _ngcontent-wcl-c173="" src="{{ asset('assets/img/logo.jpg') }}"
@@ -336,43 +336,21 @@
                         </div>
                         <div _ngcontent-wcl-c173="" class="col-md-0 text-center">
                             <p _ngcontent-wcl-c173="" class="mt-3 footer-address">
-                                Hak Cipta Dispertaru DIY
+                                <b> BALAI PPA </b>
                                 <br _ngcontent-wcl-c173="">
-                                Jalan Tentara Rakyat Mataram Nomor 4
+                                <b> Jl. Tentara Rakyat Mataram No.53 </b>
                                 <br _ngcontent-wcl-c173="">
-                                Telp./Fax: (0274) 588219
+                                <b> Telp./Fax: (0274) 5030707 </b>
                                 <br _ngcontent-wcl-c173="">
-                                Yogyakarta 55231
+                                <b> Bumijo, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55231 </b>
                             </p>
                         </div>
-                        <div class="container d-flex" style="display: flex; justify-content: center;">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="https://twitter.com/dispertarudiy">
-                                        <i class="fa-brands fa-twitter text-light"></i>
-                                     </a>
-
-                                </div>
-                                <div class="col">
-                                    <a href="https://www.instagram.com/dispertarudiy">
-                                        <i class="fa-brands fa-instagram text-light"></i>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="https://www.youtube.com/channel/UCFtGDK1-g4ZUb_tbhBNrkpw">
-                                        <i class="fa-brands fa-youtube text-light"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </app-cp-footer>
                 </div>
-                <div class="container-fluid last-content" style="background-color: #A0522D; color: white;">
+                <div class="container-fluid last-content" style="background-color: #8f0707; color: white;">
                     <div class="row">
                         <p class="mt-3" style="text-align: center;">
-                            © 2022 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Dinas Pertanahan dan Tata Ruang Daerah
-                            Istimewa Yogyakarta
+                            © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Dinas Pemberdayaan Perempuan 
+                            Perlindungan Anak dan Pengendalian Penduduk Daerah Istimewa Yogyakarta
                         </p>
                     </div>
                 </div>
