@@ -39,7 +39,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: #ac0606">
         <div class="container">
-            <a class="navbar-brand"><img src="{{ asset('assets/img/LOGO1.png') }}" width="330px" height="60px"></a>
+            <a class="navbar-brand"><img src="{{ asset('assets/img/LOGO1.png') }}" width="300px" height="45px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -95,7 +95,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100" alt="...">
+                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="...">
                     <div class="container">
                         <div class="carousel-caption text-center">
                             <h1 class="hidden-md">Dinas Pertanahan dan Tata Ruang DIY</h1>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100" alt="...">
+                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250"alt="...">
                     <div class="container">
                         <div class="carousel-caption text-center">
                             <h1>Bidang P5</h1>
@@ -126,23 +126,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar3.jpeg') }}" class="d-block w-100" alt="...">
-                    <div class="container">
-                        <div class="carousel-caption text-center">
-                            <h1>VISI</h1>
-                            <p>"Terwujudnya Peningkatan Kemuliaan Martabat Manusia Jogja"</p>
-                            <br>
-                            <center><a id="" class="btn btn-success btn-secondary btn-warning"
-                                    href="#awasi">Cek Arsip
-                                    &raquo;</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar6.png') }}" class="d-block w-100" alt="...">
-                </div>
-            </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
