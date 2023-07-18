@@ -98,15 +98,12 @@
                     <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="...">
                     <div class="container">
                         <div class="carousel-caption text-center">
-                            <h1 class="hidden-md">Dinas Pertanahan dan Tata Ruang DIY</h1>
-                            <p>Dinas Pertanahan dan Tata Ruang (Kundha Niti Mandala Sarta Tata Sasana) Daerah Istimewa
-                                Yogyakarta mempunyai tugas membantu Gubernur menyelenggarakan urusan pemerintahan dan
-                                urusan keistimewaan bidang tata ruang serta urusan pemerintahan dan urusan keistimewaan
-                                bidang pertanahan.</p>
+                            <h1 class="hidden-md">Balai Perlindungan Perempuan Dan Anak</h1>
+                            <p>Balai Pelindungan Perempuan Dan Anak DP3AP2 Daerah Istimewa
+                                Yogyakarta mempunyai tugas untuk memberikan pertolongan berupa pemberian konsultasi, bantuan
+                                hukum dan pemulihan psikologis korban secara gratis, karena Korban kekerasan harus segera
+                                mendapatkan pertolongan, pendampingan dan keadilan hukum.</p>
                             <br>
-                            <center><a id="#" class="btn btn-success btn-secondary btn-warning"
-                                    href="#awasi">Cek Arsip
-                                    &raquo;</a>
                         </div>
                     </div>
                 </div>
@@ -114,15 +111,16 @@
                     <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250"alt="...">
                     <div class="container">
                         <div class="carousel-caption text-center">
-                            <h1>Bidang P5</h1>
-                            <p>“Bidang Pemanfaatan, Penanganan Permasalahan, dan Pengawasan Pertanahan mempunyai tugas
-                                melaksanakan fasilitasi pemanfaatan, penanganan permasalahan dan pengawasan pertanahan
-                                untuk meningkatkan persentase desa yang sudah mempunyai Peraturan Desa tentang
-                                Pemanfaatan Tanah Desa.</p>
+                            <h1>RDU dan Puspaga</h1>
+                            <p>“RDU (Rekso Dyah Utami) sendiri berfungsi untuk menyelenggarakan pelayanan 
+                                terpadu kepada perempuan dan anak korban kekerasan dengan memfasilitasi pelayanan 
+                                pengaduan, rehabilitasi kesehatan, rehabilitasi sosial, bantuan hukum, pemulangan 
+                                dan reintegrasi sosial."</p>
+                            <p> “Untuk Puspaga sendiri berfungsi untuk meningkatkan kemampuan keluarga dalam mengasuh 
+                                dan melindungi anak dengan memberikan rujukan pengasuhan, pendidikan, kesehatan, 
+                                maupun perlindungan untuk anak serta orang tua, agar anak dapat tumbuh dan 
+                                berkembang dengan optimal."</p>                       
                             <br>
-                            <center><a id="" class="btn btn-success btn-secondary btn-warning"
-                                    href="#awasi">Cek Arsip
-                                    &raquo;</a>
                         </div>
                     </div>
                 </div>
@@ -324,6 +322,8 @@
                                 <b> Jl. Tentara Rakyat Mataram No.53 </b>
                                 <br _ngcontent-wcl-c173="">
                                 <b> Telp./Fax: (0274) 5030707 </b>
+                                <br _ngcontent-wcl-c173="">
+                                <b> Email: bppa@jogjaprov.go.id </b>
                                 <br _ngcontent-wcl-c173="">
                                 <b> Bumijo, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55231 </b>
                             </p>
