@@ -139,23 +139,27 @@
             </div>
 
             <div class="row p-4 justify-content-md-center">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <div class="button pasienBaru rounded-3">
-                        <div class="row icon">
-                            <div class="col d-flex justify-content-center p-3">
-                                <i class="fa-solid fa-notes-medical fa-5x" style="color:#036;"></i>
+                <div class="col-md-5 m-3 layanan-card d-flex justify-content-center">
+                    <a href="https://www.rdu.or.id/" style="color: black; text-decoration:none;">
+
+                        <div class="button pasienBaru rounded-3">
+                            <div class="row icon">
+                                <div class="col d-flex justify-content-center p-3">
+                                    <i class="fa-solid fa-notes-medical fa-5x" style="color:#036;"></i>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col fw-bold text-center label-layanan">
+                                    <h3>RDU (Rekso Dyah Utami)</h3>
+                                    <p>“RDU sendiri merupakan Pusat layanan tindak
+                                        kekerasan perempuan dan anak korban"</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="row p-2">
-                            <div class="col fw-bold text-center label">
-                                <h1>RDU (Rekso Dyah Utami)</h1>
-                                <p>“RDU sendiri merupakan Pusat layanan tindak
-                                    kekerasan perempuan dan anak korban"</p>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
+
                 </div>
-                <div class="col-md-6 d-flex justify-content-center">
+                <div class="col-md-5 m-3 layanan-card d-flex justify-content-center">
                     <div class="button pasienLama rounded-3">
                         <div class="row icon">
                             <div class="col d-flex justify-content-center p-3">
@@ -163,8 +167,8 @@
                             </div>
                         </div>
                         <div class="row p-2">
-                            <div class="col fw-bold text-center label">
-                                <h1>PUSPAGA</h1>
+                            <div class="col fw-bold text-center label-layanan">
+                                <h3>PUSPAGA</h3>
                                 <p>“Puspaga merupakan layanan konseling psikologi
                                     terkait pengasuhan, tumbuh kembang anak, remaja,
                                     serta permasalahan perempuan dan keluarga."</p>

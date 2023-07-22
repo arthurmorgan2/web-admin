@@ -3,6 +3,8 @@
 :root {
     /* Color */
     --pr-color: #ac0606;
+    --sc-color: #fd4848;
+    --tr-color: #ff7070;
 }
 body {
     font-family: "Raleway", sans-serif;
@@ -35,20 +37,6 @@ body {
     width: 5rem;
 }
 
-@media (min-width: 576px) {
-    .logo-image {
-        width: 50px;
-        height: 21.5px;
-    }
-}
-
-@media (min-width: 768px) {
-    .logo-image {
-        width: 292px;
-        height: 43px;
-    }
-}
-
 /* Home Style */
 .deskripsi {
     text-align: justify;
@@ -57,8 +45,32 @@ body {
     font-size: 20px;
 }
 
-/* .layanan-title1 {
+.layanan-card {
+    border-radius: 10px;
+    box-shadow: 0px -1px 30px -8px rgba(0, 0, 0, 0.75);
+}
+
+.layanan-card:hover {
+    height: 300px;
+    width: 500px;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    background: linear-gradient(
+        160deg,
+        var(--pr-color),
+        var(--sc-color),
+        var(--tr-color)
+    );
+    box-shadow: 0px -1px 30px -8px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease-in;
+}
+
+/*
+.label-layanan:hover {
+    transition: all 0.2s ease-in;
 } */
+
 /* Carousel style */
 .carousel {
     overflow: hidden;
