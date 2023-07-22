@@ -76,10 +76,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
             </div>
             <div class="row mt-3">
@@ -157,13 +153,6 @@
                                     kekerasan perempuan dan anak korban"</p>
                             </div>
                         </div>
-
-                        <div class="row p-2">
-                            <div class="col d-flex justify-content-center">
-                                <a href="/pendaftaran-online/pasienbaru" type="button"
-                                    class="btn btn-primary btn-baru">Daftar</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-5 m-3 d-flex justify-content-center">
@@ -179,12 +168,6 @@
                                 <p>“Puspaga merupakan layanan konseling psikologi
                                     terkait pengasuhan, tumbuh kembang anak, remaja,
                                     serta permasalahan perempuan dan keluarga."</p>
-                            </div>
-                        </div>
-
-                        <div class="row p-2">
-                            <div class="col d-flex justify-content-center">
-                                <a href="/pendaftaran-online/pasienlama" type="button" class="btn btn-warning ">Daftar</a>
                             </div>
                         </div>
                     </div>
