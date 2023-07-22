@@ -63,7 +63,7 @@
                 <div class="col-md-12 text-center">
                     <div class="row mt-4">
                         <div class="col">
-                            <h1>Layanan Balai PPA DP3AP2 DIY</h1>
+                            <h1 class="layanan-title1 fw-bold">LAYANAN BALAI PPA DIY</h1>
                         </div>
                     </div>
                     <div class="row d-flex justify-content-center align-items-center">
@@ -143,7 +143,7 @@
             </div>
 
             <div class="row p-4 justify-content-md-center">
-                <div class="col-md-5 m-3 d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
                     <div class="button pasienBaru rounded-3">
                         <div class="row icon">
                             <div class="col d-flex justify-content-center p-3">
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 m-3 d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
                     <div class="button pasienLama rounded-3">
                         <div class="row icon">
                             <div class="col d-flex justify-content-center p-3">
