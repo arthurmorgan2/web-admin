@@ -1,4 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+    /* Color */
+    --pr-color: #ac0606;
+}
 body {
-    font-family: "Poppins", sans-serif;
-    padding-top: 82px;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* padding-top: 82px; */
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Style */
+.logo-image {
+    width: 292px;
+    height: 43px;
+}
+
+.navbar {
+    background-color: var(--pr-color);
+    opacity: 0.8;
+}
+
+.nav-item {
+    padding: 0 0.5rem;
+}
+
+.btn-login {
+    width: 5rem;
+}
+
+/* Carousel style */
+.carousel {
+    overflow: hidden;
+    height: 580px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-caption {
+    top: 230px;
+    bottom: auto;
+    background-color: var(--pr-color);
+    opacity: 0.7;
+    border-radius: 2rem;
+}
+
+/* Pengunjung Style */
+.container-pengunjung {
+    padding-top: 69px;
+}
+
+.pengunjung-underline {
+    border-bottom: solid var(--pr-color) 3px;
+}
+
+.pengunjung-title {
+    font-size: 32px;
+}
+
+/* Berita Style */
+.container-berita {
+    padding-top: 69px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.berita-title-section {
+    font-size: 32px;
+}
+
+.title-underline {
+    border-bottom: solid var(--pr-color) 3px;
+}
+
+.container-post {
+    border: solid rgb(197, 197, 197) 1px;
+    border-radius: 10px;
+}
+
+.post-date {
+    font-size: 12px;
+}
+
+.post-title {
+    font-size: 24px;
+}
+
+.post-description {
+    font-size: 14px;
+}
+
+.populer-title-section {
+    font-size: 28px;
+}
+
+.vertical-line {
+    border-left: 6px solid black;
+}
+
+.vr {
+    height: 600px;
+    width: 2px;
+    border-radius: 10px;
+}
+
+.form-search {
+    position: relative;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af;
+}
+
+.form-search span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+    padding-left: 10px;
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.post-populer-title {
+    font-size: 14px;
+}
+
+.post-views {
+    font-size: 12px;
+}
+
+@media (max-width: 575.98px) {
+    .vr {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .vr {
+        display: none;
+    }
+}
+
+/* Footer Style */
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../assets/img/tugu3.jpeg");
+    background-size: cover;
 }

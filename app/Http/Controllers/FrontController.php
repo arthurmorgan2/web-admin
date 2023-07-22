@@ -9,11 +9,15 @@ class FrontController extends Controller
 {
     public function index()
     {
-        return view('user_dashboard');
+        return view('client/index');
     }
     public function showPengunjung()
     {
-        return view('pengunjung');
+        return view('client/pengunjung');
+    }
+    public function showBerita()
+    {
+        return view('client/berita');
     }
 
     public function store(Request $request)

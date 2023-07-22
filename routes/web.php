@@ -11,6 +11,7 @@ use App\Http\Controllers\PengunjungController;
 //Client Side Routes
 Route::get('/', [FrontController::class, 'index']);
 Route::get('/daftar-pengunjung', [FrontController::class, 'showPengunjung']);
+Route::get('/berita', [FrontController::class, 'showBerita']);
 Route::post('/daftar-pengunjung/create', [FrontController::class, 'store']);
 
 //Admin Side Routes
