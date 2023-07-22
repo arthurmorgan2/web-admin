@@ -35,6 +35,13 @@ body {
     width: 5rem;
 }
 
+/* Home Style */
+.deskripsi {
+    text-align: justify;
+}
+.deskripsi-layanan1 {
+    font-size: 20px;
+}
 /* Carousel style */
 .carousel {
     overflow: hidden;

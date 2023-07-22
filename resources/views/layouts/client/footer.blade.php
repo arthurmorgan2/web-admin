@@ -24,9 +24,8 @@
              <div class="container-fluid last-content" style="color: white;">
                  <div class="row">
                      <p class="mt-3" style="text-align: center;">
-                         © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Dinas Pemberdayaan
-                         Perempuan
-                         Perlindungan Anak dan Pengendalian Penduduk Daerah Istimewa Yogyakarta
+                         © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Perlindungan perempuan Dan 
+                         Anak DP3AP2 Daerah Istimewa Yogyakarta
                      </p>
                  </div>
              </div>

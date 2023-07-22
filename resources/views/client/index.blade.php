@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250"alt="...">
+                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="...">
                     <div class="container">
                         <div class="carousel-caption text-center p-4">
                             <h1>RDU dan Puspaga</h1>
@@ -61,9 +61,87 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    Layanan Balai PPA DP3AP2 DIY
+                    <div class="row mt-4">
+                        <div class="col">
+                            <h1>Layanan Balai PPA DP3AP2 DIY</h1>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-md-10">
+                            <div class="deskripsi-layanan1 p-4">
+                                Merupakan upaya penanganan untuk
+                                melindungi dan memenuhi hak perempuan dan anak dari segala bentuk tindak kekerasan,
+                                diskriminasi, perlindungan khusus, dan masalah seperti: </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <h5 class="text-center">Layanan pengaduan</h5>
+                    <p class="text-center">
+                        Layanan Pengaduan di Balai PPA Daerah
+                        Istimewa Yogyakarta merupakan tahapan
+                        pertama korban untuk menyampikan informasi
+                        ,dalam menyampaikan informasi tersebut
+                        korban di minta untuk menyampaikan
+                        keluhan atas masalah korban.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Layanan penjangkauan</h5>
+                    <p class="text-center">
+                        Layanan Penjangkauan dalam Balai PPA
+                        Daerah Istimewa Yogyakarta itu merupakan
+                        upaya petugas untuk mendatangi korban atau
+                        pihak terkait yang tidak bisa mengakses layanan
+                        langsung ke kantor.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Layanan Pengelolaan kasus</h5>
+                    <p class="text-center">
+                        Layanan yang mengidentifikasi semua kasus
+                        dalam aspek kasus korban untuk memberikan layanan
+                        yang sesuai dengan kebutuhan dan keperluan korban.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Layanan pendampingan</h5>
+                    <p class="text-center">
+                        Layanan bantuan psikologis sosial, hukum, untuk
+                        membantu, melindungi, meringankan dan
+                        memulihkan kondisi fisik, psikologis mental dan sosial.
+                        serta spiritaul sehingga mampu menjalankan
+                        kehidupan yang normal kembali.
+
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Layanan mediasi</h5>
+                    <p class="text-center">
+                        Proses sistematis bermusyawarah untuk
+                        para korban yang di fasilitasi oleh pihak ketiga
+                        (mediator) untuk mencapai kesepakatan bersama.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Layanan penampungan sementara</h5>
+                    <p class="text-center">
+                        Layanan penampungan ditunjukan untuk
+                        menampung korban sementara yang sedang
+                        terancam keselamatannya dan membutuhkan
+                        tempat tinggal sementara.
+                    </p>
+                </div>
+            </div>
+
             <div class="row p-4 justify-content-md-center">
                 <div class="col-md-5 m-3 d-flex justify-content-center">
                     <div class="button pasienBaru rounded-3">
@@ -74,7 +152,9 @@
                         </div>
                         <div class="row p-2">
                             <div class="col fw-bold text-center label">
-                                <p>Pendaftaran pasien baru di Klinik Badan Narkotika Nasional Sleman</p>
+                                <h1>RDU (Rekso Dyah Utami)</h1>
+                                <p>“RDU sendiri merupakan Pusat layanan tindak
+                                    kekerasan perempuan dan anak korban"</p>
                             </div>
                         </div>
 
@@ -95,7 +175,10 @@
                         </div>
                         <div class="row p-2">
                             <div class="col fw-bold text-center label">
-                                <p>Pendaftaran pasien lama di Klinik Badan Narkotika Nasional Sleman</p>
+                                <h1>PUSPAGA</h1>
+                                <p>“Puspaga merupakan layanan konseling psikologi
+                                    terkait pengasuhan, tumbuh kembang anak, remaja,
+                                    serta permasalahan perempuan dan keluarga."</p>
                             </div>
                         </div>
 
