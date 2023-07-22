@@ -35,6 +35,20 @@ body {
     width: 5rem;
 }
 
+@media (min-width: 576px) {
+    .logo-image {
+        width: 50px;
+        height: 21.5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-image {
+        width: 292px;
+        height: 43px;
+    }
+}
+
 /* Home Style */
 .deskripsi {
     text-align: justify;
