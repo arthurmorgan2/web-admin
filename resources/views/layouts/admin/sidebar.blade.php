@@ -31,6 +31,29 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="/data-artikel" class="nav-link">
+                        <i class="nav-icon fa-regular fa-newspaper" style="color: white"></i>
+
+                        <p style="color: white">
+                            Data Artikel
+                            <i class="fas fa-angle-left right" style="color: white"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/data-artikel" class="nav-link">
+                                <p style="font-size: 14px; color:white;">Tabel Artikel</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/data-kategori" class="nav-link">
+                                <p style="font-size: 14px; color:white;">Kategori Artikel</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
         </nav>
         <!-- End Sidebar Menu -->
     </div>

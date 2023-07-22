@@ -7,6 +7,8 @@ use App\Http\Controllers\FrontController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PengunjungController;
+use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\KategoriController;
 
 //Client Side Routes
 Route::get('/', [FrontController::class, 'index']);
@@ -31,3 +33,17 @@ Route::get('/data-pengunjung/edit/{id}', [PengunjungController::class, 'showPeng
 Route::post('/data-pengunjung/create/store', [PengunjungController::class, 'store'])->middleware('auth');
 Route::put('/data-pengunjung/edit/update/{id}', [PengunjungController::class, 'update'])->middleware('auth');
 Route::get('/data-pengunjung/delete/{id}', [PengunjungController::class, 'delete'])->middleware('auth');
+
+//Data Artikel Route
+Route::get('/data-artikel', [ArtikelController::class, 'showDataArtikel'])->middleware('auth');
+Route::get('/data-artikel/create/show', [ArtikelController::class, 'showArtikelCreate'])->middleware('auth');
+Route::get('/data-artikel/edit/{id}', [ArtikelController::class, 'showArtikelEdit'])->middleware('auth');
+Route::post('/data-artikel/create/store', [ArtikelController::class, 'create'])->middleware('auth');
+Route::put('/data-artikel/edit/update/{id}', [ArtikelController::class, 'edit'])->middleware('auth');
+Route::get('/data-artikel/delete/{id}', [ArtikelController::class, 'delete'])->middleware('auth');
+
+//Data Kategori  Route
+Route::get('/data-kategori', [KategoriController::class, 'showDataKategori'])->middleware('auth');
+Route::post('/data-kategori/create', [KategoriController::class, 'create'])->name('create')->middleware('auth');
+Route::put('/data-kategori/update/{id}', [KategoriController::class, 'update'])->middleware('auth');
+Route::get('/data-kategori/delete/{id}', [KategoriController::class, 'delete'])->middleware('auth');

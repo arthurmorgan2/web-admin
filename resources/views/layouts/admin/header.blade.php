@@ -49,6 +49,13 @@
     {{-- assets --}}
     <link rel="shortcut icon" href="{{ asset('assets/img/logo.jpg') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+    {{-- RichText Editor --}}
+    <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+    </script>
 </head>
 
 <!-- Preloader Loading Logo -->

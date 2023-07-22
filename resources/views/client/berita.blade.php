@@ -20,34 +20,36 @@
         </div>
         <div class="row">
             <div class="col-md-8">
-                <div class="row p-3 mb-2 container-post">
-                    <div class="col-md-3 d-flex justify-content-center align-items-top">
-                        <a href="">
-                            <img class="img-thumbnail rounded-3" src="https://picsum.photos/200" alt="img-post">
-                        </a>
+                @foreach ($artikel as $item)
+                    <div class="row p-3 mb-2 container-post">
+                        <div class="col-md-3 d-flex justify-content-center align-items-top">
+                            <a href="">
+                                <img class="img-thumbnail rounded-3" src="{{ asset('uploads/' . $item->gambar_artikel) }}"
+                                    alt="img-post">
+                            </a>
+                        </div>
+                        <div class="col-md-9 p-2">
+                            <div class="row">
+                                <div class="col-sm-4 post-date">
+                                    <i class="fa-solid fa-calendar-days px-2"></i>
+                                    {{ date('d M Y', strtotime($item->created_at)) }}
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col mx-2 post-title">
+                                    {{ $item->judul }}
+                                </div>
+                            </div>
+                            <hr class="m-0">
+                            <div class="row">
+                                <div class="col m-2 post-description">
+                                    {{ Str::words($item->body, 15, ' ...') }}
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-9 p-2">
-                        <div class="row">
-                            <div class="col-sm-4 post-date">
-                                <i class="fa-solid fa-calendar-days px-2"></i>
-                                20 Juli 2023
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col mx-2 post-title">
-                                Judul Artikel
-                            </div>
-                        </div>
-                        <hr class="m-0">
-                        <div class="row">
-                            <div class="col m-2 post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur aperiam
-                                nihil quas, animi laboriosam nam necessitatibus iste facilis vel, beatae obcaecati
-                                officiis dolorum voluptates velit! Quia exercitationem tempora ullam?
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
+
 
             </div>
             <div class="col-md-1 text-center">

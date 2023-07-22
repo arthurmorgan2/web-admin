@@ -2,13 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Artikel;
+use App\Models\Kategori;
+use App\Models\PasienBaru;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Str;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Pagination\Paginator;
 use App\Models\Pengunjung;
 
 class FrontController extends Controller
 {
     public function index()
     {
+
         return view('client/index');
     }
     public function showPengunjung()
@@ -17,7 +26,10 @@ class FrontController extends Controller
     }
     public function showBerita()
     {
-        return view('client/berita');
+        $artikel = Artikel::latest()->paginate(2);
+        $post_populer = Artikel::orderBy('views', 'desc')->limit('4')->get();
+        $kategori = Kategori::all();
+        return view('client/berita', compact('artikel', 'post_populer', 'kategori'));
     }
 
     public function store(Request $request)
