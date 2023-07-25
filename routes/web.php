@@ -14,6 +14,7 @@ use App\Http\Controllers\KategoriController;
 Route::get('/', [FrontController::class, 'index']);
 Route::get('/daftar-pengunjung', [FrontController::class, 'showPengunjung']);
 Route::get('/berita', [FrontController::class, 'showBerita']);
+Route::get('/berita/{slug}', [FrontController::class, 'detail_artikel'])->name('detail_artikel');
 Route::post('/daftar-pengunjung/create', [FrontController::class, 'store']);
 
 //Admin Side Routes

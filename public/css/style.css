@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&family=Varela+Round&display=swap");
 
 :root {
     /* Color */
     --pr-color: #ac0606;
     --sc-color: #fd4848;
     --tr-color: #ff7070;
+    --desc-color: #565c63;
 }
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: "Varela Round", sans-serif;
     margin: 0;
     padding: 0;
     /* padding-top: 82px; */
@@ -47,23 +48,7 @@ body {
 
 .layanan-card {
     border-radius: 10px;
-    box-shadow: 0px -1px 30px -8px rgba(0, 0, 0, 0.75);
-}
-
-.layanan-card:hover {
-    height: 300px;
-    width: 500px;
-    color: white;
-    font-size: larger;
-    border-radius: 10px;
-    background: linear-gradient(
-        160deg,
-        var(--pr-color),
-        var(--sc-color),
-        var(--tr-color)
-    );
-    box-shadow: 0px -1px 30px -8px rgba(0, 0, 0, 0.75);
-    transition: all 0.3s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 /*
@@ -119,20 +104,25 @@ body {
 }
 
 .container-post {
-    border: solid rgb(197, 197, 197) 1px;
+    font-family: "Montserrat", sans-serif;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .post-date {
+    font-family: "Varela Round", sans-serif;
     font-size: 12px;
 }
 
 .post-title {
-    font-size: 24px;
+    font-size: 21px;
+    font-weight: 700;
 }
 
 .post-description {
-    font-size: 14px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    color: var(--desc-color);
 }
 
 .populer-title-section {
@@ -193,6 +183,11 @@ body {
 
 .post-views {
     font-size: 12px;
+    color: #5555d9;
+}
+
+.post-views:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 575.98px) {

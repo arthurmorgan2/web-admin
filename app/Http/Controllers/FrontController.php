@@ -32,6 +32,20 @@ class FrontController extends Controller
         return view('client/berita', compact('artikel', 'post_populer', 'kategori'));
     }
 
+
+    public function detail_artikel(Request $request, $slug, Artikel $post)
+    {
+        $artikel = Artikel::where('slug', $slug)->first();
+        $post_populer = Artikel::orderBy('views', 'desc')->limit('4')->get();
+        $viewed = Session::get('judul', []);
+        if (!in_array($artikel->id, $viewed)) {
+            $artikel->increment('views');
+            Session::push('judul', $artikel->id);
+        }
+
+        return view('/client/detail-berita', compact('artikel', 'viewed', 'post_populer'));
+    }
+
     public function store(Request $request)
     {
         $this->validate($request, [
