@@ -43,7 +43,7 @@
                                 <hr class="m-0">
                                 <div class="row">
                                     <div class="col m-2 post-description">
-                                        {{ Str::words($item->body, 26, '...') }}
+                                        {{ strip_tags(preg_replace('/&#?[a-z0-9]{2,8};/i', '', Str::words($item->body, 42, '...'))) }}
                                     </div>
                                 </div>
                             </div>

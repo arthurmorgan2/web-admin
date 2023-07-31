@@ -4,7 +4,7 @@
         <div class="row my-3">
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col d-flex justify-content-center align-items-center bg-success">
+                    <div class="col d-flex justify-content-center align-items-center">
                         <div class="img-detail">
                             <img src="{{ asset('uploads/' . $artikel->gambar_artikel) }}" alt="img-detail"
                                 class="img-fluid rounded">
@@ -24,7 +24,7 @@
                     </div>
 
                 </div>
-                <div class="row my-3">
+                <div class="row mt-3">
                     <div class="col">
                         <div class="post-title">
                             {{ $artikel->judul }}
@@ -33,8 +33,16 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <div class="post-description">
-                            {{ $artikel->body }}
+                        <div class="post-description-detail">
+                            {!! nl2br($artikel->body) !!}
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="post-source">
+                            Sumber : {{ strip_tags(preg_replace('/&#?[a-z0-9]{2,8};/i', '', $artikel->sumber)) }}
                         </div>
                     </div>
                 </div>

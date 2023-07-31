@@ -14,7 +14,7 @@ class Artikel extends Model
     protected $table = 'artikel';
 
     protected $fillable = [
-        'judul', 'slug', 'kategori_id', 'user_id', 'gambar_artikel', 'views', 'body'
+        'judul', 'slug', 'kategori_id', 'user_id', 'gambar_artikel', 'views', 'body', 'sumber'
     ];
 
     protected $hidden = [];

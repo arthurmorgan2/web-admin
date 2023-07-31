@@ -145,7 +145,8 @@
                         <div class="button pasienBaru rounded-3">
                             <div class="row icon">
                                 <div class="col d-flex justify-content-center p-3">
-                                    <i class="fa-solid fa-notes-medical fa-5x" style="color:#036;"></i>
+                                    <img src="{{ asset('assets/img/logo.png') }}" alt="">
+                                    {{-- <i class="fa-solid fa-notes-medical fa-5x" style="color:#036;"></i>? --}}
                                 </div>
                             </div>
                             <div class="row p-2">
@@ -163,7 +164,9 @@
                     <div class="button pasienLama rounded-3">
                         <div class="row icon">
                             <div class="col d-flex justify-content-center p-3">
-                                <i class="fa-solid fa-house-medical-circle-check fa-5x" style="color: #036;"></i>
+                                {{-- <i class="fa-solid fa-house-medical-circle-check fa-5x" style="color: #036;"></i> --}}
+                                <img src="{{ asset('assets/img/logo2.png') }}" alt="" class="img-fluid">
+
                             </div>
                         </div>
                         <div class="row p-2">

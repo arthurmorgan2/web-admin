@@ -50,6 +50,18 @@
                             </div>
                         </div>
                         <div class="row mb-4">
+                            <div class="col-2  d-flex justify-content-left">
+                                <div class="label">Sumber Berita</div>
+                            </div>
+                            <div class="col-8">
+                                <div class="form-outline">
+                                    <input type="text" name="sumber" id="sumber"
+                                        class="form-control @error('sumber') is-invalid body @enderror"
+                                        placeholder="Radar Jogja" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
                             <div class="col-2  d-flex justify-content-left align-items-center">
                                 <div class="label">Gambar Artikel Berita</div>
                             </div>

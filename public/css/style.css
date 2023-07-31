@@ -125,6 +125,19 @@ body {
     color: var(--desc-color);
 }
 
+.post-description-detail {
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    color: var(--desc-color);
+    white-space: pre-line;
+}
+
+.post-source {
+    font-family: "Varela Round", sans-serif;
+    font-size: 10px;
+    font-style: italic;
+}
+
 .populer-title-section {
     font-size: 28px;
 }
@@ -133,8 +146,13 @@ body {
     border-left: 6px solid black;
 }
 
+.img-detail {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
 .vr {
-    height: 600px;
+    height: 100vh;
     width: 2px;
     border-radius: 10px;
 }
