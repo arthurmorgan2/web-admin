@@ -1,7 +1,7 @@
 @extends('layouts.client.app')
 @section('content')
     <div class="container container-berita">
-        <div class="row my-3">
+        <div class="row post-section my-3">
             <div class="col-md-8">
                 <div class="row">
                     <div class="col d-flex justify-content-center align-items-center">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col">
                         <div class="post-description-detail">
                             {!! nl2br($artikel->body) !!}
@@ -47,13 +47,14 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-1 text-center">
                 <div class="vr"></div>
             </div>
-            <div class="col-4 col-md-3 populer-title-section fw-bold">
-                <div class="row">
-                    <div class="col">
-                        Berita <span class="title-underline">Terpopuler</span>
+            <div class="col-12 col-md-3 populer-title-section fw-bold">
+                <div class="row my-4">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        Berita <span class="title-underline mx-1">Terpopuler</span>
                     </div>
                 </div>
                 @foreach ($post_populer as $item)
@@ -65,7 +66,7 @@
                                     alt="img-populer">
                             </div>
                             <div class="col-md-7 p-0">
-                                <div class="row mb-2">
+                                <div class="row my-3">
                                     <div class="col post-populer-title">
                                         {{ Str::words($item->judul, 5, ' ...') }}
                                     </div>

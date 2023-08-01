@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-sm fixed-top shadow-sm">
+<nav class="navbar navbar-expand-md fixed-top shadow-sm">
     <div class="container">
         <a href="/">
             <div class="navbar-brand">
@@ -12,24 +12,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="/">
+                <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
+                    <a class="nav-link text-white" aria-current="page" href="/">
                         Home
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="/berita">
+                <li class="nav-item {{ request()->is('/berita') ? 'active' : '' }}">
+                    <a class="nav-link text-white" aria-current="page" href="/berita">
                         Berita
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="/daftar-pengunjung">
+                <li class="nav-item {{ request()->is('/daftar-pengunjung') ? 'active' : '' }}">
+                    <a class="nav-link text-white" aria-current="page" href="/daftar-pengunjung">
                         Daftar Pengunjung
                     </a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link active text-white btn btn-login" aria-current="page" href="/login">Login</a>
-                </li>
+                </li> --}}
             </ul>
         </div>
     </div>

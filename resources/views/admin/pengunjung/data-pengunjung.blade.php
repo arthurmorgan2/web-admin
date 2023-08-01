@@ -50,6 +50,7 @@
                                             <th>Konsultasi Bidang</th>
                                             <th>Alamat</th>
                                             <th>Konsultasi</th>
+                                            <th>Tanggal</th>
                                             <th>Aksi</th>
 
                                         </tr>
@@ -66,6 +67,7 @@
                                                 <td>{{ $item->konsultasi_bidang }}</td>
                                                 <td>{{ $item->alamat }}</td>
                                                 <td>{{ $item->konsultasi }}</td>
+                                                <td>{{ date('d M Y', strtotime($item->created_at)) }}</td>
                                                 <td>
                                                     <a href="{{ url('/data-pengunjung/edit') . '/' . $item->id }}"
                                                         class="btn btn-warning btn-xs">
@@ -90,6 +92,7 @@
                                             <th>Konsultasi Bidang</th>
                                             <th>Alamat</th>
                                             <th>Konsultasi</th>
+                                            <th>Tanggal</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </tfoot>

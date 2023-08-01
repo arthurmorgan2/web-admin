@@ -26,7 +26,7 @@ class FrontController extends Controller
     }
     public function showBerita()
     {
-        $artikel = Artikel::latest()->paginate(2);
+        $artikel = Artikel::latest()->paginate(10);
         $post_populer = Artikel::orderBy('views', 'desc')->limit('4')->get();
         $kategori = Kategori::all();
         return view('client/berita', compact('artikel', 'post_populer', 'kategori'));
@@ -65,5 +65,19 @@ class FrontController extends Controller
 
         // dd($data);
         return redirect('/daftar-pengunjung')->with('success', 'Data Berhasil Disimpan!');
+    }
+
+    public function search(Request $request)
+    {
+        $post_populer = Artikel::orderBy('views', 'desc')->limit('4')->get();
+
+        if ($request->search) {
+            $all = Artikel::where('judul', 'like', '%' . $request->search . '%')
+                ->latest()->paginate(10);
+        } else {
+            $all = Artikel::latest()
+                ->paginate(10);
+        }
+        return view('/client/search', compact('all', 'post_populer'));
     }
 }

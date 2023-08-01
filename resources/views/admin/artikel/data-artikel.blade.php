@@ -65,7 +65,7 @@
                                                 <td>{{ $item->users->name }}</td>
                                                 <td><img src="{{ URL::asset('uploads/' . $item->gambar_artikel) }}"
                                                         width="100"></td>
-                                                <td>{{ date('d M Y', strtotime($item->updated_at)) }}</td>
+                                                <td>{{ date('d M Y', strtotime($item->created_at)) }}</td>
                                                 <td>{{ $item->views }}</td>
 
                                                 <td>

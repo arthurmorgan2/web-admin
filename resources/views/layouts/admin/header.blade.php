@@ -56,6 +56,7 @@
             selector: '#mytextarea'
         });
     </script>
+
 </head>
 
 <!-- Preloader Loading Logo -->

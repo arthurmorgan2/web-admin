@@ -16,7 +16,7 @@
                 data-accordion="false">
                 <li class="nav-header" style="color: white">Menu</li>
                 <li class="nav-item">
-                    <a href="/dashboard" class="nav-link">
+                    <a href="{{ url('/dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt" style="color: white"></i>
                         <p style="color: white">
                             Dashboard
@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/data-pengunjung" class="nav-link">
+                    <a href="{{ url('/data-pengunjung') }}" class="nav-link">
                         <i class="nav-icon fas fa-fw fa-user fa-user-tie" style="color: white"></i>
                         <p style="color: white">
                             Data Pengunjung
@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/data-artikel" class="nav-link">
+                    <a href="{{ url('/data-artikel') }}" class="nav-link">
                         <i class="nav-icon fa-regular fa-newspaper" style="color: white"></i>
 
                         <p style="color: white">
@@ -42,12 +42,12 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="/data-artikel" class="nav-link">
+                            <a href="{{ url('/data-artikel') }}" class="nav-link">
                                 <p style="font-size: 14px; color:white;">Tabel Artikel</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/data-kategori" class="nav-link">
+                            <a href="{{ url('/data-kategori') }}" class="nav-link">
                                 <p style="font-size: 14px; color:white;">Kategori Artikel</p>
                             </a>
                         </li>
