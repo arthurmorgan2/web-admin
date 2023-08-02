@@ -43,7 +43,7 @@ class ArtikelController extends Controller
             'judul' => 'required|max:100',
             'body' => 'required|max:3000',
             'sumber' => 'required',
-            'gambar_artikel' => 'nullable|image|mimes:jpeg,bmp,png,jpg,svg',
+         'gambar_artikel' => 'nullable|image|mimes:jpeg,bmp,png,jpg,svg',
         ]);
 
         $data = [];
