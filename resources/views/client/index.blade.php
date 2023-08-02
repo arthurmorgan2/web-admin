@@ -11,8 +11,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..."
-                        loading="lazy">
+                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-1 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">Balai Perlindungan Perempuan Dan Anak
@@ -29,8 +28,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..."
-                        loading="lazy">
+                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-2 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">RDU dan Puspaga</div>
@@ -171,7 +169,7 @@
 
                             <div class="layanan-titler">RDU (Rekso Dyah Utami)</div>
                             <div class="layanan-desciption">“RDU sendiri merupakan Pusat layanan tindak
-                                kekerasan perempuan dan anak korban"</div>
+                                kekerasan perempuan dan anak korban."</div>
                         </div>
                     </a>
                 </div>
@@ -183,6 +181,18 @@
                             <div class="layanan-desciption">“Puspaga merupakan layanan konseling psikologi
                                 terkait pengasuhan, tumbuh kembang anak, remaja,
                                 serta permasalahan perempuan dan keluarga."</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 layanan-box d-flex flex-column justify-content-center align-items-center">
+                    <a href="https://www.rdu.or.id/" class="text-decoration-none text-reset" target="_blank">
+                        <img src="{{ asset('assets/img/logo3.png') }}" class="img-fluid" alt="">
+                        <div class="text-center mt-4">
+                            <div class="layanan-title">SAPA 129</div>
+                            <div class="layanan-desciption">“SAPA 129 merupakan layanan untuk mempermudah akses bagi korban
+                                atau pelapor untuk pengaduan kasus kekerasan terhadap perempuan dan anak, pendataan
+                                kasus serta mengintegrasikan layanan perlindungan perempuan dan anak di pusat
+                                dan daerah."</div>
                         </div>
                     </a>
                 </div>
