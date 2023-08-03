@@ -17,12 +17,12 @@
                         Home
                     </a>
                 </li>
-                <li class="nav-item {{ request()->is('/berita') ? 'active' : '' }}">
+                <li class="nav-item {{ request()->is('berita') ? 'active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/berita">
                         Berita
                     </a>
                 </li>
-                <li class="nav-item {{ request()->is('/daftar-pengunjung') ? 'active' : '' }}">
+                <li class="nav-item {{ request()->is('daftar-pengunjung') ? 'active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/daftar-pengunjung">
                         Daftar Pengunjung
                     </a>

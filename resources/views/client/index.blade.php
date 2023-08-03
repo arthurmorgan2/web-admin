@@ -164,7 +164,7 @@
             </div>
 
             <div class="row d-flex justify-content-center align-items-center my-5">
-                <div class="col-md-3 layanan-box d-flex flex-column align-items-center">
+                <div class="col-md-3 layanan-box-link d-flex flex-column align-items-center">
                     <a href="https://www.rdu.or.id/" class="text-decoration-none text-reset" target="_blank">
                         <img src="{{ asset('assets/img/logo.png') }}" class="img-fluid my-4" alt="">
                         <div class="text-center mt-4">
@@ -175,7 +175,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 layanan-box d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-3 layanan-box-link d-flex flex-column justify-content-center align-items-center">
                     <a href="https://www.rdu.or.id/" class="text-decoration-none text-reset" target="_blank">
                         <img src="{{ asset('assets/img/logo2.png') }}" class="img-fluid" alt="">
                         <div class="text-center mt-4">
@@ -183,6 +183,21 @@
                             <div class="layanan-desciption">“Puspaga merupakan layanan konseling psikologi
                                 terkait pengasuhan, tumbuh kembang anak, remaja,
                                 serta permasalahan perempuan dan keluarga."</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 layanan-box-link d-flex flex-column justify-content-center align-items-center">
+                    <a href="/layanan/sapa129" class="text-decoration-none text-reset" target="_blank">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-6">
+                                <img src="{{ asset('assets/img/sapa.png') }}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="layanan-title">SAPA 129</div>
+                            <div class="layanan-desciption">“SAPA 129 merupakan layanan untuk mempermudah akses bagi korban
+                                atau perlapor untuk pengaduan kasus kekerasan terhadap perempuan dan anak, pendataan kasus
+                                serta mengintegrasikan layanan perlindungan perempuan dan anak di pusat dan daerah."</div>
                         </div>
                     </a>
                 </div>

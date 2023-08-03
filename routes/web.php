@@ -17,6 +17,7 @@ Route::get('/berita', [FrontController::class, 'showBerita']);
 Route::get('/berita/search', [FrontController::class, 'search'])->name('search');
 Route::get('/berita/{slug}', [FrontController::class, 'detail_artikel'])->name('detail_artikel');
 Route::post('/daftar-pengunjung/create', [FrontController::class, 'store']);
+Route::get('/layanan/sapa129', [FrontController::class, 'showSapa']);
 
 //Admin Side Routes
 Route::controller(LoginController::class)->group(function () {
