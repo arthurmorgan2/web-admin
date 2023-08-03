@@ -80,4 +80,9 @@ class FrontController extends Controller
         }
         return view('/client/search', compact('all', 'post_populer'));
     }
+
+    public function showSapa()
+    {
+        return view('/client/layanan-sapa129');
+    }
 }

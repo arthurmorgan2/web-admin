@@ -42,7 +42,6 @@
                         <div class="small-box bg-danger">
                             <div class="inner">
                                 <h3>{{ $pengunjung }}</h3>
-
                                 <p>Data Pengunjung Hari ini</p>
                             </div>
                             <div class="icon">
@@ -57,6 +56,7 @@
 
                 <div class="row mt-4">
                     <div class="col-md-6">
+
                     </div>
                 </div>
             </div>
