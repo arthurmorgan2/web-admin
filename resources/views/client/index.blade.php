@@ -31,7 +31,7 @@
                     <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-2 text-center p-4">
-                            <div class="hidden-md fw-bold carousel-caption-title">RDU dan Puspaga</div>
+                            <div class="hidden-md fw-bold carousel-caption-title">RDU, Puspaga, Dan SAPA 129</div>
                             <div class="carousel-caption-description">“RDU (Rekso Dyah Utami) sendiri berfungsi untuk
                                 menyelenggarakan pelayanan
                                 terpadu kepada perempuan dan anak korban kekerasan dengan memfasilitasi pelayanan
@@ -40,7 +40,12 @@
                                 “Untuk Puspaga sendiri berfungsi untuk meningkatkan kemampuan keluarga dalam mengasuh
                                 dan melindungi anak dengan memberikan rujukan pengasuhan, pendidikan, kesehatan,
                                 maupun perlindungan untuk anak serta orang tua, agar anak dapat tumbuh dan
-                                berkembang dengan optimal."</div>
+                                berkembang dengan optimal."
+                                "Dan untuk SAPA 129 berfungsi sebagai layanan pelapor dan pengaduan bagi korban kasus
+                                kekerasan terhadap perempuan dan anak, pendataan kasus serta mengintegrasikan layanan
+                                perlindungan perempuan dan anak di pusat dan daerah."
+
+                            </div>
                             <br>
                         </div>
                     </div>
@@ -184,17 +189,6 @@
                         </div>
                     </a>
                 </div>
-<<<<<<< HEAD
-                <div class="col-md-3 layanan-box d-flex flex-column justify-content-center align-items-center">
-                    <a href="https://www.rdu.or.id/" class="text-decoration-none text-reset" target="_blank">
-                        <img src="{{ asset('assets/img/logo3.png') }}" class="img-fluid" alt="">
-                        <div class="text-center mt-4">
-                            <div class="layanan-title">SAPA 129</div>
-                            <div class="layanan-desciption">“SAPA 129 merupakan layanan untuk mempermudah akses bagi korban
-                                atau pelapor untuk pengaduan kasus kekerasan terhadap perempuan dan anak, pendataan
-                                kasus serta mengintegrasikan layanan perlindungan perempuan dan anak di pusat
-                                dan daerah."</div>
-=======
                 <div class="col-md-3 layanan-box-link d-flex flex-column justify-content-center align-items-center">
                     <a href="/layanan/sapa129" class="text-decoration-none text-reset" target="_blank">
                         <div class="row d-flex justify-content-center">
@@ -207,7 +201,6 @@
                             <div class="layanan-desciption">“SAPA 129 merupakan layanan untuk mempermudah akses bagi korban
                                 atau perlapor untuk pengaduan kasus kekerasan terhadap perempuan dan anak, pendataan kasus
                                 serta mengintegrasikan layanan perlindungan perempuan dan anak di pusat dan daerah."</div>
->>>>>>> 61ea133094abd5183a214ccc298b892a2ea3feb1
                         </div>
                     </a>
                 </div>
