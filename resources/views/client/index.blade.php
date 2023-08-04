@@ -186,7 +186,7 @@
                         <img src="{{ asset('assets/img/logo2.png') }}" class="img-fluid" alt="">
                         <div class="text-center mt-4">
                             <div class="layanan-title">PUSPAGA PRIMA DIY</div>
-                            <div class="layanan-desciption">“Puspaga merupakan layanan konseling psikologi
+                            <div class="layanan-desciption">“Puspaga Prima DIY merupakan layanan konseling psikologi
                                 terkait pengasuhan, tumbuh kembang anak, remaja,
                                 serta permasalahan perempuan dan keluarga."</div>
                         </div>
