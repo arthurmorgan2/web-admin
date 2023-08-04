@@ -4,129 +4,123 @@
         <div class="row">
             <div class="col-md-12 p-4 text-center">
                 <div class="sapa-title-section fw-bold">
-                    LAYANAN SAHABAT PEREMPUAN DAN ANAK (SAPA) 129
+                    PUSPAGA PRIMA DIY
                 </div>
             </div>
         </div>
         <div class="sapa-description">
             <div class="row mt-4">
                 <div class="col fw-bold">
-                    Kontak SAPA 129:
+                    Kontak Puspaga Prima DIY
                 </div>
             </div>
             <div class="row mt-2">
                 <div class="col">
-                    Telepon: 129
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col">
-                    WhatsApp: 08111 129 129
+                    WhatsApp: 0813 2942 68071
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col fw-bold">
-                    Latar Belakang SAPA 129
+                    Sosial Media Puspaga Prima DIY:
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    Instagram: Puspaga.diy
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col fw-bold">
+                    Latar Belakang Puspaga Prima DIY
                 </div>
             </div>
             <div class="row mt-2">
                 <div class="col text-left">
-                    Jika melihat tren secara umum, kasus kekerasan seperti fenomena gunung es yang terlihat lebih kecil di
-                    permukaan dibandingkan yang sebenarnya menimpa mereka, artinya persoalan ini bisa terjadi kapanpun,
-                    dimanapun, dan menimpa siapapun. Kekerasan terutama kepada anak yang kita anggap aman dan nyaman berada
-                    di tempat yang luar biasa, tapi justru di sanalah anak-anak mengalami kekerasan yang membawa dampak
-                    panjang kepada generasi penerus bangsa. Perempuan dan anak merupakan kelompok yang rentan mengalami
-                    kekerasan, baik secara fisik, psikis, seksual, penelantaran, hingga Tindak Pidana Perdagangan Orang
-                    (TPPO).
+                    Sebagaimana sebuah lirik lagu yang sering kita dengar dan mungkin kita dendangkan, harta yang paling
+                    berharga adalah keluarga. Keluarga adalah tempat pertama kita belajar dan selalu menjadi tempat untuk
+                    kita pulang.
+                    Namun sayangnya beberapa tahun terakhir ini, kita mendengar dan mengetahui banyaknya permasalahan yang
+                    terkait
+                    dengan kekerasan serta permasalahan keluarga lainnya, seperti kekerasan dalam rumah tangga (KDRT),
+                    perceraian,
+                    pernikahan usia anak, kenakalan dan/atau kekerasan anak di jalan.
                     <br>
                     <br>
-                    Dari banyaknya fenomena kekerasan pada perempuan dan anak, masih banyak masyarakat yang bingung, malu,
-                    bahkan takut untuk melaporkannya. Hal tersebut menyebabkan berbagai dampak negatif yang harus dialami
-                    oleh perempuan maupun anak. Penting adanya penyelarasan pandangan, tujuan, dan komitmen antara
-                    pemerintah pusat dan daerah dalam menyikapi kasus yang terjadi serta memberikan pelayanan terbaik dalam
-                    penanganan korban tindak kekerasan terhadap perempuan dan anak melalui Unit Pelaksana Teknis Daerah
-                    Perlindungan Perempuan dan Anak (UPTD PPA).
+                    Kekerasan tidak hanya secara fisik tetapi juga non fisik (secara psikologis), pelaku tidak hanya orang
+                    dewasa
+                    namun juga usia anak. Hal ini tentunya membuat kita was-was dan takut apabila hal tersebut menimpa kita
+                    ataupun orang-orang terdekat kita.
+                    Dinas Pemberdayaan Perempuan Perlindungan Anak dan Pengendalian Penduduk (DP3AP2) DIY membentuk Pusat
+                    Pembelajaran Keluarga atau PUSPAGA,
+                    dengan nama PUSPAGA PRIMA DIY. PUSPAGA PRIMA DIY merupakan tempat pembelajaran untuk meningkatkan
+                    kualitas keluarga dengan mendorong peningkatan
+                    kapasitas orangtua, keluarga, atau orang yang bertanggung jawab mengasuh demi kepentingan terbaik anak.
                     <br>
                     <br>
-                    Menanggapi situasi yang genting tersebut perlu adanya layanan pengaduan bersifat one stop services
-                    dengan memberikan pendampingan dan penanganan yang jauh lebih baik, lebih responsif, dan juga
-                    terintegrasi bagi seluruh masyarakat, baik itu korban, keluarga korban, dan juga pelapor. Masyarakat
-                    memerlukan suatu layanan pengaduan yang dapat diakses dengan mudah kapanpun dan dimanapun serta respon
-                    pelayanan yang bersifat 24 jam. Layanan SAPA 129 merupakan layanan pengaduan masyarakat di bawah naungan
-                    Kementerian Pemberdayaan Perempuan dan Perlindungan Anak (KPPPA). Layanan ini menjadi layanan rujukan
-                    akhir bagi perempuan maupun anak korban kekerasan yang memerlukan koordinasi tingkat nasional, lintas
-                    provinsi, dan internasional, serta penyediaan layanan bagi anak yang memerlukan perlindungan khusus yang
-                    memerlukan koordinasi tingkat nasional dan internasional. Selain itu, SAPA 129 merupakan sarana untuk
-                    mengoptimalkan pelaksanaan fungsi layanan pengaduan masyarakat melalui hotline atau saluran siaga
+                    PUSPAGA PRIMA DIY memiliki layanan yang dapat diakses masyarakat, yaitu Layanan Konseling dan
+                    Konsultasi,
+                    Kelas Parenting, Layanan Informasi dan Edukasi, Rujukan ke Lembaga Layanan lainnya, Layanan Penjangkauan
+                    serta Layanan Penerimaan Pengaduan. Layanan PUSPAGA tersebut bertujuan memberikan layanan satu pintu
+                    keluarga
+                    holistik integratif berbasis hak anak, tersedianya tempat pembelajaran keluarga melalui pendidikan bagi
+                    orang tua,
+                    menguatkan kemampuan keluarga dalam mengasuh dan melindungi anak untuk mewujudkan keluarga yang
+                    berkesetaraan gender
+                    dan sesuai dengan hak anak. Tersedianya tempat mendapatkan layanan informasi, konsultasi dan konseling
+                    bagi anak, orang
+                    tua atau orang yang bertanggung jawab terhadap anak, tersedianya tempat penghubung rujukan sebagai
+                    solusi bagi
+                    permasalahan anak dan keluarga.
+                    <br>
+                    <br>
+                    PUSPAGA PRIMA DIY siap melayani dengan dukungan 3 konselor dan 1 psikolog serta 1 orang petugas
+                    administrasi.
+                    Untuk mengakses layanan dapat datang langsung ke Lantai 2 Balai Perlindungan Perempuan dan Anak yang
+                    beralamat
+                    di Jl. Tentara Rakyat Mataram No. 53 Bumijo, Yogyakarta atau melalui media telepon 0813 2942 68071 dan
+                    Instagram: Puspaga.diy.
+                    PUSPAGA PRIMA DIY juga secara berkala melakukan Live Instagram dan Podcast dengan tema-tema menarik dan
+                    sesuai dengan kondisi
+                    terkini. Selain itu juga mengadakan live talkshow bekerjasama dengan beberapa media radio.
+                    Keluarga adalah tempat kita berbagi cerita, pemberi semangat dan tempat yang selalu ada untuk kita,
+                    saatnya kita kembali ke pelukan
+                    keluarga dan saling menguatkan. PUSPAGA PRIMA DIY siap menjadi tempat untuk membantu dan mendampingi
+                    keluarga dalam mencari solusi
+                    di setiap permasalahan serta memberikan layanan terbaiknya dengan tetap menjaga kerahasiaan klien.
 
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col fw-bold">
-                    Tujuan SAPA 129
+                    Tujuan Puspaga Prima DIY
                 </div>
             </div>
             <div class="row mt-2">
                 <div class="col text-left">
-                    Kehadiran Call Center SAPA 129 bertujuan untuk mempermudah akses bagi korban atau pelapor untuk
-                    pengaduan kasus kekerasan terhadap perempuan dan anak, pendataan kasus serta mengintegrasikan layanan
-                    perlindungan perempuan dan anak di pusat dan daerah.
+                    Puspaga Prima DIY sendiri memiliki tujuan untuk meningkatkan kemampuan keluarga dalam mengasuh dan
+                    melindungi anak dengan memberikan rujukan pengasuhan, pendidikan, kesehatan, maupun perlindungan untuk
+                    anak serta orang tua, agar anak dapat tumbuh dan berkembang dengan optimal.
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col fw-bold">
-                    Kategori Kekerasan pada Perempuan dan Anak
+                    Layanan Puspaga Prima DIY
                 </div>
             </div>
             <div class="row mt-2 mb-5">
                 <div class="col-md-6 text-left">
-                    Berikut merupakan 15 kategori Anak yang Memerlukan Perlindungan Khusus:
+                    1. Layanan Konseling dan konsultasi
                     <br>
-                    1. Anak dalam situasi darurat (pengungsi, korban kerusuhan, bencana alam, dan konflik bersenjata)
+                    2. Kelas Parenting
                     <br>
-                    2. ABH (anak pelaku/anak berkonflik dengan hukum)
+                    3. Layanan Informasi dan Edukasi
                     <br>
-                    3. Anak kelompok minoritas dan terisolasi
+                    4. Layanan Rujukan ke lembaga layanan lain
                     <br>
-                    4. Eksploitasi ekonomi dan/atau seksual
+                    5. Layanan Penjangkauan
                     <br>
-                    5. Penyalahgunaan NAPZA
+                    6. Penerima dan Pengaduan
                     <br>
-                    6. Anak korban pornografi
-                    <br>
-                    7. Anak dengan HIV/AIDS
-                    <br>
-                    8. Anak korban penculikan, penjualan, dan/atau perdagangan (TPPO)
-                    <br>
-                    9. Anak korban kekerasan fisik dan/atau psikis
-                    <br>
-                    10. Anak korban kejahatan seksual maupun kekerasan seksual
-                    <br>
-                    11. Anak korban jaringan terorisme
-                    <br>
-                    12. Anak penyandang disabilitas
-                    <br>
-                    13. Anak korban perlakuan salah dan penelantaran
-                    <br>
-                    14. Anak dengan perilaku sosial menyimpang
-                    <br>
-                    15. Anak korban stigmatisasi dari pelabelan terkait kondisi orang tuanya
-                    <br>
-                </div>
-                <div class="col-md-6">
-                    Kekerasan Terhadap Perempuan antara lain:
-                    <br>
-                    1. Kekerasan fisik
-                    <br>
-                    2. Kekerasan psikis
-                    <br>
-                    3. Kekerasan seksual
-                    <br>
-                    4. Penelantaran rumah tangga
-                    <br>
-                    5. Eksploitasi/eksploitasi seksual
-                    <br>
-                    6. TPPO
                 </div>
             </div>
         </div>
