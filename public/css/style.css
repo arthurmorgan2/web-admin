@@ -417,3 +417,7 @@ body {
         url("../assets/img/tugu3.jpeg");
     background-size: cover;
 }
+
+.maps-box {
+    border-left: white 2px solid;
+}

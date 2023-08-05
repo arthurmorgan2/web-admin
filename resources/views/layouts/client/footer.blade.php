@@ -21,23 +21,28 @@
                      </div>
                  </div>
              </div>
-             <div class="row d-flex justify-content-center align-items-center">
-                 <div class="col-md-3 text-center">
+             <div class="row d-flex justify-content-center align-items-center py-2">
+                 <div class="col-md-3 d-flex flex-row-reverse">
                      <a href="https://www.facebook.com/profile.php?id=100095212522156" target="_blank"> <i
                              class="fa-brands fa-facebook fa-2xl mx-2" style="color: white;"></i></a>
                      <a href="https://www.instagram.com/bppadiy/" target="_blank"><i
                              class="fa-brands fa-instagram fa-2xl mx-2" style="color: white;"></i></a>
                  </div>
+                 <div class="col-md-3 py-2 maps-box">
 
-             </div>
-             <div class="container-fluid last-content" style="color: white;">
-                 <div class="row">
-                     <p class="mt-3" style="text-align: center;">
-                         © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Perlindungan perempuan Dan
-                         Anak DP3AP2 Daerah Istimewa Yogyakarta
-                     </p>
+                     <a href="https://goo.gl/maps/Q11mjFvosiF5snd49" target="_blank"> <img class="w-50"
+                             src="{{ asset('assets/img/maps.png') }}" alt=""> </a>
+
+
                  </div>
-             </div>
+                 <div class="container-fluid last-content" style="color: white;">
+                     <div class="row">
+                         <p class="mt-3" style="text-align: center;">
+                             © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Perlindungan perempuan Dan
+                             Anak DP3AP2 Daerah Istimewa Yogyakarta
+                         </p>
+                     </div>
+                 </div>
  </footer>
  <!-- End Footer -->
 
@@ -52,6 +57,7 @@
  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
  <script>
      $.widget.bridge('uibutton', $.ui.button)
+
  </script>
  <!-- Bootstrap 4 -->
  <script src="{{ asset('AdminLTE') }}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -68,7 +74,8 @@
  <script src="{{ asset('AdminLTE') }}/plugins/moment/moment.min.js"></script>
  <script src="{{ asset('AdminLTE') }}/plugins/daterangepicker/daterangepicker.js"></script>
  <!-- Tempusdominus Bootstrap 4 -->
- <script src="{{ asset('AdminLTE') }}/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+ <script src="{{ asset('AdminLTE') }}/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js">
+ </script>
  <!-- Summernote -->
  <script src="{{ asset('AdminLTE') }}/plugins/summernote/summernote-bs4.min.js"></script>
  <!-- overlayScrollbars -->
