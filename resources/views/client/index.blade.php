@@ -11,8 +11,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..."
-                        loading="lazy">
+                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-1 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">Balai Perlindungan Perempuan Dan Anak
@@ -29,11 +28,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..."
-                        loading="lazy">
+                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-2 text-center p-4">
-                            <div class="hidden-md fw-bold carousel-caption-title">RDU dan Puspaga</div>
+                            <div class="hidden-md fw-bold carousel-caption-title">RDU, Puspaga, Dan SAPA 129</div>
                             <div class="carousel-caption-description">“RDU (Rekso Dyah Utami) sendiri berfungsi untuk
                                 menyelenggarakan pelayanan
                                 terpadu kepada perempuan dan anak korban kekerasan dengan memfasilitasi pelayanan
@@ -42,7 +40,12 @@
                                 “Untuk Puspaga sendiri berfungsi untuk meningkatkan kemampuan keluarga dalam mengasuh
                                 dan melindungi anak dengan memberikan rujukan pengasuhan, pendidikan, kesehatan,
                                 maupun perlindungan untuk anak serta orang tua, agar anak dapat tumbuh dan
-                                berkembang dengan optimal."</div>
+                                berkembang dengan optimal."
+                                "Dan untuk SAPA 129 berfungsi sebagai layanan pelapor dan pengaduan bagi korban kasus
+                                kekerasan terhadap perempuan dan anak, pendataan kasus serta mengintegrasikan layanan
+                                perlindungan perempuan dan anak di pusat dan daerah."
+
+                            </div>
                             <br>
                         </div>
                     </div>
@@ -171,7 +174,7 @@
 
                             <div class="layanan-titler">RDU (Rekso Dyah Utami)</div>
                             <div class="layanan-desciption">“RDU sendiri merupakan Pusat layanan tindak
-                                kekerasan perempuan dan anak korban"</div>
+                                kekerasan perempuan dan anak korban."</div>
                         </div>
                     </a>
                 </div>

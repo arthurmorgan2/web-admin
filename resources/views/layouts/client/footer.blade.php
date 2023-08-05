@@ -20,6 +20,12 @@
                          <b> Bumijo, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55231 </b>
                      </div>
                  </div>
+                 <div class="col-md-0 text-center">
+                     <p class="mt-3 footer">
+                         <a href="https://www.instagram.com/bppadiy/" class="fa fa-instagram"></a>
+                         <a href="https://www.facebook.com/profile.php?id=100095212522156" class="fa fa-facebook"></a>
+                     </p>
+                 </div>
              </div>
              <div class="row d-flex justify-content-center align-items-center">
                  <div class="col-md-3 text-center">
@@ -52,6 +58,7 @@
  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
  <script>
      $.widget.bridge('uibutton', $.ui.button)
+
  </script>
  <!-- Bootstrap 4 -->
  <script src="{{ asset('AdminLTE') }}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -68,7 +75,8 @@
  <script src="{{ asset('AdminLTE') }}/plugins/moment/moment.min.js"></script>
  <script src="{{ asset('AdminLTE') }}/plugins/daterangepicker/daterangepicker.js"></script>
  <!-- Tempusdominus Bootstrap 4 -->
- <script src="{{ asset('AdminLTE') }}/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+ <script src="{{ asset('AdminLTE') }}/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js">
+ </script>
  <!-- Summernote -->
  <script src="{{ asset('AdminLTE') }}/plugins/summernote/summernote-bs4.min.js"></script>
  <!-- overlayScrollbars -->
