@@ -21,55 +21,20 @@
                     </div>
                 </div>
                 <div class="row mt-0 m-4">
-                    <div class="col-md-6 bg-success p-3">
-                        <div class="card">
-                            <div class="img-container">
-                                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 bg-success p-3">
-                        <div class="card">
-                            <div class="img-container">
-                                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
+                    @foreach ($gallery as $item)
+                        <div class="col-md-6 p-3">
+                            <div class="card card-gallery-content">
+                                <div class="img-container d-flex justify-content-center align-items-center p-2">
+                                    <img src="{{ asset('uploads/' . $item->gambar_gallery) }}" class="card-img-top"
+                                        alt="no picture...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ Str::words($item->deskripsi, 20, '...') }}</h5>
+                                    <p class="card-text"> {{ date('d M Y', strtotime($item->created_at)) }}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 bg-success p-3">
-                        <div class="card">
-                            <div class="img-container">
-                                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 bg-success p-3">
-                        <div class="card">
-                            <div class="img-container">
-                                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Artikel;
 use App\Models\Kategori;
+use App\Models\Gallery;
 use App\Models\PasienBaru;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
@@ -91,7 +92,8 @@ class FrontController extends Controller
     }
     public function showGallery()
     {
-        return view('/client/gallery');
+        $gallery = Gallery::all();
+        return view('/client/gallery', compact('gallery'));
     }
     public function showVideo()
     {
