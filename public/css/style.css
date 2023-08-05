@@ -5,6 +5,7 @@
     --pr-color: #ac0606;
     --sc-color: #fd4848;
     --tr-color: #ebde1f;
+    --link-color: #c0392b;
     --desc-color: #565c63;
 }
 body {
@@ -209,23 +210,10 @@ body {
     color: white;
 }
 
-/* a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    text-decoration: none;
-    color: white;
-} */
-
 /* Pengunjung Style */
 .container-pengunjung {
     padding-top: 69px;
 }
-
-/* .pengunjung-underline {
-    border-bottom: solid var(--pr-color) 3px;
-} */
 
 .pengunjung-title {
     font-size: 32px;
@@ -242,10 +230,6 @@ a:hover {
 .berita-title-section {
     font-size: 32px;
 }
-
-/* .title-underline {
-    border-bottom: solid var(--pr-color) 3px;
-} */
 
 .container-post {
     font-family: "Montserrat", sans-serif;
@@ -385,6 +369,45 @@ a:hover {
 
 .sapa-description {
     color: var(--desc-color);
+}
+
+/* Gallery Style */
+.container-gallery {
+    padding-top: 180px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-gallery {
+    font-size: 16px;
+    color: white;
+    margin: 1rem 0;
+    padding: 0 1.5rem;
+}
+
+.link-gallery-box {
+    margin-bottom: 2rem;
+}
+
+.link-gallery-box:hover {
+    border-bottom: solid 4px var(--tr-color);
+}
+
+.link-gallery-req {
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--link-color);
+}
+
+.gallery-section {
+    font-size: 21px;
+}
+
+.card-gallery-box {
+    width: 300px;
+    height: 200px;
 }
 
 /* Footer Style */

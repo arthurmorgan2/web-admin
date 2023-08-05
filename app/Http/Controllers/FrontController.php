@@ -89,4 +89,12 @@ class FrontController extends Controller
     {
         return view('/client/puspaga');
     }
+    public function showGallery()
+    {
+        return view('/client/gallery');
+    }
+    public function showVideo()
+    {
+        return view('/client/video');
+    }
 }

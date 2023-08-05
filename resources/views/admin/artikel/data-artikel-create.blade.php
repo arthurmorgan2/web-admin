@@ -68,7 +68,7 @@
                             <div class="col-8">
                                 <div class="form-outline">
                                     <input type="file" name="gambar_artikel" id="gambar_artikel" alt="no picture..."
-                                        class="form-control @error('judul') is-invalid @enderror" />
+                                        class="form-control @error('gambar_artikel') is-invalid @enderror" />
                                 </div>
                             </div>
                         </div>

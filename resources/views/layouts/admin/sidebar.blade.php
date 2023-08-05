@@ -54,6 +54,14 @@
 
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a href="{{ url('/data-gallery') }}" class="nav-link">
+                        <i class="nav-icon fa-solid fa-photo-film" style="color: white"></i>
+                        <p style="color: white">
+                            Gallery
+                        </p>
+                    </a>
+                </li>
         </nav>
         <!-- End Sidebar Menu -->
     </div>

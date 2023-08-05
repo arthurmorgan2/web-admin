@@ -9,6 +9,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PengunjungController;
 use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\GalleryController;
 
 //Client Side Routes
 Route::get('/', [FrontController::class, 'index']);
@@ -19,6 +20,8 @@ Route::get('/berita/{slug}', [FrontController::class, 'detail_artikel'])->name('
 Route::post('/daftar-pengunjung/create', [FrontController::class, 'store']);
 Route::get('/layanan/sapa129', [FrontController::class, 'showSapa']);
 Route::get('/layanan/puspaga', [FrontController::class, 'showPuspaga']);
+Route::get('/gallery', [FrontController::class, 'showGallery']);
+Route::get('/video', [FrontController::class, 'showVideo']);
 
 //Admin Side Routes
 Route::controller(LoginController::class)->group(function () {
@@ -51,3 +54,9 @@ Route::get('/data-kategori', [KategoriController::class, 'showDataKategori'])->m
 Route::post('/data-kategori/create', [KategoriController::class, 'create'])->name('create')->middleware('auth');
 Route::put('/data-kategori/update/{id}', [KategoriController::class, 'update'])->middleware('auth');
 Route::get('/data-kategori/delete/{id}', [KategoriController::class, 'delete'])->middleware('auth');
+
+//Data Gallery  Route
+Route::get('/data-gallery', [GalleryController::class, 'showDataGallery'])->middleware('auth');
+Route::post('/data-gallery/create', [GalleryController::class, 'create'])->name('create')->middleware('auth');
+Route::put('/data-gallery/update/{id}', [GalleryController::class, 'update'])->middleware('auth');
+Route::get('/data-gallery/delete/{id}', [GalleryController::class, 'delete'])->middleware('auth');
