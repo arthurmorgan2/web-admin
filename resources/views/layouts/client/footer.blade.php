@@ -2,13 +2,13 @@
  <footer>
      <div class="footer">
          <div class="w-100">
-             <div class="row justify-content-center pb-3" style="color: white;">
+             <div class="row justify-content-center p-3" style="color: white;">
                  <div class="logo-footer" style="display: flex; justify-content: center;">
                      <img src="{{ asset('assets/img/logo.jpg') }}" alt="logo Pemda DIY" class="float-right mt-2"
                          style="height: 90px;">
                  </div>
                  <div class="col-md-0 text-center">
-                     <p class="mt-3 footer-address">
+                     <div class="mt-3 footer-address">
                          <b> BALAI PPA </b>
                          <br>
                          <b> Jl. Tentara Rakyat Mataram No.53 </b>
@@ -18,13 +18,22 @@
                          <b> Email: bppa@jogjaprov.go.id </b>
                          <br>
                          <b> Bumijo, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55231 </b>
-                     </p>
+                     </div>
                  </div>
+             </div>
+             <div class="row d-flex justify-content-center align-items-center">
+                 <div class="col-md-3 text-center">
+                     <a href="https://www.facebook.com/profile.php?id=100095212522156" target="_blank"> <i
+                             class="fa-brands fa-facebook fa-2xl mx-2" style="color: white;"></i></a>
+                     <a href="https://www.instagram.com/bppadiy/" target="_blank"><i
+                             class="fa-brands fa-instagram fa-2xl mx-2" style="color: white;"></i></a>
+                 </div>
+
              </div>
              <div class="container-fluid last-content" style="color: white;">
                  <div class="row">
                      <p class="mt-3" style="text-align: center;">
-                         © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Perlindungan perempuan Dan 
+                         © 2023 Copyright&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Balai Perlindungan perempuan Dan
                          Anak DP3AP2 Daerah Istimewa Yogyakarta
                      </p>
                  </div>

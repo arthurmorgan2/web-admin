@@ -64,7 +64,7 @@ class FrontController extends Controller
         Pengunjung::create($data);
 
         // dd($data);
-        return redirect('/daftar-pengunjung')->with('success', 'Data Berhasil Disimpan!');
+        return redirect('/daftar-pengunjung')->with('success', 'Data anda sudah terdaftar sebagai pengunjung kami :)');
     }
 
     public function search(Request $request)
