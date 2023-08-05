@@ -32,7 +32,7 @@
                                 <p>Jumlah Artikel</p>
                             </div>
                             <div class="icon">
-                                <i class="ion ion-stats-bars"></i>
+                                <i class="fa-regular fa-newspaper"></i>
                             </div>
                             <a href="/data-artikel" class="small-box-footer">Selengkapnya <i
                                     class="fas fa-arrow-circle-right"></i></a>
