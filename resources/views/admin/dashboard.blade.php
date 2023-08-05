@@ -55,9 +55,11 @@
                 </div>
 
                 <div class="row mt-4">
-                    <div class="col-md-6">
-
+                    <div class="col-md-12">
+                        <canvas id="myChart"></canvas>
                     </div>
+
+                    <script src="{{ mix('/js/app.js') }}"></script>
                 </div>
             </div>
         </div>

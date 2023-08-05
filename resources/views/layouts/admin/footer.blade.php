@@ -62,6 +62,8 @@
 <script src="{{ asset('AdminLTE') }}/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 <!-- Page specific script -->
 
+{{-- chartjs --}}
+<script src="https://cdnjs.com/libraries/Chart.js"></script>
 
 </body>
 
