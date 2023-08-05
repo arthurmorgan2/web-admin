@@ -22,6 +22,11 @@
                         Berita
                     </a>
                 </li>
+                <li class="nav-item {{ request()->is('gallery') ? 'active' : '' }}">
+                    <a class="nav-link text-white" aria-current="page" href="/gallery">
+                        Gallery
+                    </a>
+                </li>
                 <li class="nav-item {{ request()->is('daftar-pengunjung') ? 'active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/daftar-pengunjung">
                         Daftar Pengunjung

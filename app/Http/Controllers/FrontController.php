@@ -85,4 +85,8 @@ class FrontController extends Controller
     {
         return view('/client/layanan-sapa129');
     }
+    public function showPuspaga()
+    {
+        return view('/client/puspaga');
+    }
 }

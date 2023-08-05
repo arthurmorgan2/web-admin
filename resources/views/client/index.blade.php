@@ -11,7 +11,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
+                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..."
+                        loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-1 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">Balai Perlindungan Perempuan Dan Anak
@@ -28,7 +29,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
+                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..."
+                        loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-2 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">RDU, Puspaga, Dan SAPA 129</div>
@@ -179,7 +181,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 layanan-box-link d-flex flex-column justify-content-center align-items-center">
-                    <a href="https://www.rdu.or.id/" class="text-decoration-none text-reset" target="_blank">
+                    <a href="/layanan/puspaga" class="text-decoration-none text-reset" target="_blank">
                         <img src="{{ asset('assets/img/logo2.png') }}" class="img-fluid" alt="">
                         <div class="text-center mt-4">
                             <div class="layanan-title">PUSPAGA</div>
