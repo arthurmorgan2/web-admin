@@ -32,7 +32,7 @@
                                 <label for="pekerjaan">Pekerjaan</label>
                                 <select id="pekerjaan" name="pekerjaan"
                                     class="form-control @error('pekerjaan') is-invalid @enderror">
-                                    <option value="0">{{ $item->pekerjaan }}</option>
+                                    <option value={{ $item->pekerjaan }}>{{ $item->pekerjaan }}</option>
                                     <option value="Pegawai Negeri">Pegawai Negeri</option>
                                     <option value="Wiraswasta">Wiraswasta</option>
                                     <option value="Pedagang">Pedagang</option>
@@ -43,7 +43,7 @@
                                 <label for="konsultasi bidang">Konsultasi Bidang</label>
                                 <select id="konsultasi_bidang" name="konsultasi_bidang"
                                     class="form-control @error('konsultasi_bidang') is-invalid @enderror">
-                                    <option value="0">{{ $item->konsultasi_bidang }}</option>
+                                    <option value={{ $item->konsultasi_bidang }}>{{ $item->konsultasi_bidang }}</option>
                                     <option value="Puspaga">Puspaga</option>
                                     <option value="RDU">RDU</option>
                                 </select>

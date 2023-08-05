@@ -35,7 +35,7 @@
                     <div class="col">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">Tabel Data Kategori Artikel</h3>
+                                <h3 class="card-title">Tabel Data Gallery</h3>
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">
@@ -69,7 +69,7 @@
                                                         <i class="fa-solid fa-pen-to-square" style="color: #ffffff;"></i>
                                                     </a>
                                                     <a rel="" data-id="" data-name=""
-                                                        href="{{ url('/data-kategori/delete') . '/' . $item->id }}"
+                                                        href="{{ url('/data-gallery/delete') . '/' . $item->id }}"
                                                         id="deleteArtikel" class="btn btn-danger btn-xs delete"><i
                                                             class="fa-solid fa-trash-can"></i></a>
                                                 </td>
@@ -118,10 +118,11 @@
                             <label for="kategori_gallery">Kategori</label>
                             <select id="kategori_gallery" name="kategori_gallery"
                                 class="form-control @error('kategori_gallery') is-invalid @enderror">
-                                <option value="0">Pilih Kategori</option>
-                                <option value="Pegawai Negeri">Pegawai Negeri</option>
-                                <option value="Wiraswasta">Wiraswasta</option>
-                                <option value="Pedagang">Pedagang</option>
+                                <option value="0">Pilih Album</option>
+                                <option value="Event">Event</option>
+                                <option value="Acara">Acara</option>
+                                <option value="Pentas">Pentas</option>
+                                <option value="Konser">Konser</option>
                                 <option value="Lainnya">Lainnya</option>
                             </select>
                         </div>
@@ -156,11 +157,38 @@
                             @csrf
                             @method('PUT')
                             <div class="mb-3">
-                                <label for="nama_kategori" class="form-label">Nama Kategori</label>
-                                <input type="text" name="nama_kategori" id="nama_kategori"
-                                    class="form-control @error('nama_kategori') is-invalid @enderror"
-                                    value="{{ $data->nama_kategori }}">
+                                <label for="deskripsi" class="form-label">Deskripsi Kategori</label>
+                                <input type="text" name="deskripsi" id="deskripsi"
+                                    class="form-control @error('deskripsi') is-invalid @enderror"
+                                    value="{{ $data->deskripsi }}">
                             </div>
+                            <div class="mb-3">
+                                <label for="kategori_gallery">Kategori</label>
+                                <select id="kategori_gallery" name="kategori_gallery"
+                                    class="form-control @error('kategori_gallery') is-invalid @enderror">
+                                    <option value={{ $data->kategori_gallery }}>{{ $data->kategori_gallery }}</option>
+                                    <option value="Event">Event</option>
+                                    <option value="Acara">Acara</option>
+                                    <option value="Pentas">Pentas</option>
+                                    <option value="Konser">Konser</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="gambar_gallery" class="form-label">Gambar Gallery</label>
+                                <input type="file" name="gambar_gallery" id="gambar_gallery"
+                                    class="form-control @error('gambar_gallery') is-invalid @enderror"
+                                    placeholder="Event">
+                            </div>
+                            <div class="mb-3">
+                                <label for="gambar_gallery" class="form-label">Gambar Gallery Saat Ini</label>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="{{ asset('uploads/' . $item->gambar_gallery) }}" width="100">
+                                    </div>
+                                </div>
+                            </div>
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
