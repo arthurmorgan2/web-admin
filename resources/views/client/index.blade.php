@@ -11,7 +11,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
+                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..."
+                        loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-1 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">Balai Perlindungan Perempuan Dan Anak
@@ -28,7 +29,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..." loading="lazy">
+                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..."
+                        loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-2 text-center p-4">
                             <div class="hidden-md fw-bold carousel-caption-title">RDU, Puspaga, Dan SAPA 129</div>
@@ -128,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center align-items-center my-5">
+            <div class="row d-flex justify-content-center align-items-center">
 
                 <div class="col-md-3 layanan-box d-flex flex-column justify-content-center align-items-center">
                     <div class="layanan-title text-center">Layanan Pendampingan</div>

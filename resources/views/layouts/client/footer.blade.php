@@ -22,15 +22,15 @@
                  </div>
              </div>
              <div class="row d-flex justify-content-center align-items-center py-2">
-                 <div class="col-md-3 d-flex flex-row-reverse">
+                 <div class="col-3 col-md-3 d-flex flex-row-reverse">
                      <a href="https://www.facebook.com/profile.php?id=100095212522156" target="_blank"> <i
                              class="fa-brands fa-facebook fa-2xl mx-2" style="color: white;"></i></a>
                      <a href="https://www.instagram.com/bppadiy/" target="_blank"><i
                              class="fa-brands fa-instagram fa-2xl mx-2" style="color: white;"></i></a>
                  </div>
-                 <div class="col-md-3 py-2 maps-box">
+                 <div class="col-3 col-md-3 py-2 maps-box">
 
-                     <a href="https://goo.gl/maps/Q11mjFvosiF5snd49" target="_blank"> <img class="w-50"
+                     <a href="https://goo.gl/maps/Q11mjFvosiF5snd49" target="_blank"> <img class="img-map"
                              src="{{ asset('assets/img/maps.png') }}" alt=""> </a>
 
 
@@ -57,7 +57,6 @@
  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
  <script>
      $.widget.bridge('uibutton', $.ui.button)
-
  </script>
  <!-- Bootstrap 4 -->
  <script src="{{ asset('AdminLTE') }}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -74,8 +73,7 @@
  <script src="{{ asset('AdminLTE') }}/plugins/moment/moment.min.js"></script>
  <script src="{{ asset('AdminLTE') }}/plugins/daterangepicker/daterangepicker.js"></script>
  <!-- Tempusdominus Bootstrap 4 -->
- <script src="{{ asset('AdminLTE') }}/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js">
- </script>
+ <script src="{{ asset('AdminLTE') }}/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
  <!-- Summernote -->
  <script src="{{ asset('AdminLTE') }}/plugins/summernote/summernote-bs4.min.js"></script>
  <!-- overlayScrollbars -->
