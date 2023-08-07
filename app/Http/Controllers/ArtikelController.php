@@ -40,8 +40,8 @@ class ArtikelController extends Controller
     {
 
         $this->validate($request, [
-            'judul' => 'required|max:100',
-            'body' => 'required|max:3000',
+            'judul' => 'required',
+            'body' => 'required',
             'sumber' => 'required',
             'gambar_artikel' => 'nullable|image|mimes:jpeg,bmp,png,jpg,svg',
         ]);
@@ -66,7 +66,6 @@ class ArtikelController extends Controller
 
             Artikel::create($data);
         }
-
         return redirect('/data-artikel')->with('success', 'Data Berhasil Disimpan!');
     }
 
