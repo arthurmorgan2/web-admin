@@ -1,21 +1,27 @@
 import Chart from 'chart.js/auto';
 
 const labels = [
-    'January',
-    'February',
-    'March',
+    'Januari',
+    'Februari',
+    'Maret',
     'April',
-    'May',
-    'June',
+    'Mei',
+    'Juni',
+    'Juli',
+    'Agustus',
+    'September',
+    'Oktober',
+    'November',
+    'Desember'
 ];
 
 const data = {
     labels: labels,
     datasets: [{
-        label: 'My First dataset',
+        label: 'Jumlah Pengunjung',
         backgroundColor: 'rgb(255, 99, 132)',
         borderColor: 'rgb(255, 99, 132)',
-        data: [0, 10, 5, 2, 20, 30, 45],
+        data: [5, 10, 9, 19, 56, 45, 100],
     }]
 };
 

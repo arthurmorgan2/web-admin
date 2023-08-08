@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\DashboardController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use PhpOffice\PhpSpreadsheet\Calculation\MathTrig\Round;
@@ -60,3 +61,6 @@ Route::get('/data-gallery', [GalleryController::class, 'showDataGallery'])->midd
 Route::post('/data-gallery/create', [GalleryController::class, 'create'])->name('create')->middleware('auth');
 Route::put('/data-gallery/update/{id}', [GalleryController::class, 'update'])->middleware('auth');
 Route::get('/data-gallery/delete/{id}', [GalleryController::class, 'delete'])->middleware('auth');
+
+//Data Pengunjung Dashboard API
+Route::apiResource('/dashboards', DashboardController::class);
