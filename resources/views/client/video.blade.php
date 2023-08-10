@@ -15,7 +15,11 @@
             </div>
 
             <div class="col-md-8">
-
+                <div class="row">
+                    <div class="col-md-4 mt-0 m-4 fw-bold gallery-section">
+                        Daftar Video
+                    </div>
+                </div>
             </div>
         </div>
 
