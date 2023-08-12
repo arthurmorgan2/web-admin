@@ -26,13 +26,20 @@
         </div>
         <div class="row">
             <div class="col-md-8">
-                @foreach ($artikel as $item)
+                @forelse ($artikel as $item)
                     <a href="{{ url('/berita/' . $item->slug) }}" class="text-reset text-decoration-none">
                         <div class="row p-3 mb-2 container-post">
-                            <div class="col-md-3 d-flex justify-content-center align-items-center">
-                                <img class="img-thumbnail rounded-3" src="{{ asset('uploads/' . $item->gambar_artikel) }}"
-                                    alt="img-post">
-                            </div>
+                            @if ($item->gambar_artikel)
+                                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                    <img class="img-thumbnail rounded-3"
+                                        src="{{ asset('uploads/' . $item->gambar_artikel) }}" alt="img-post">
+                                </div>
+                            @else
+                                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                    <img class="img-thumbnail rounded-3" src="uploads/artikel/{{ $item->gambar_Artikel }}"
+                                        alt="img-post">
+                                </div>
+                            @endif
                             <div class="col-md-9 p-2">
                                 <div class="row">
                                     <div class="col-sm-4 post-date">
@@ -55,7 +62,11 @@
                             </div>
                         </div>
                     </a>
-                @endforeach
+                @empty
+                    <div class="col-md-12 p-2 mt-4 text-center">
+                        <div class="post-title">~ Berita tidak tersedia ~</div>
+                    </div>
+                @endforelse
 
 
             </div>
@@ -68,7 +79,7 @@
                         Berita<span class="title-underline mx-1">Terpopuler</span>
                     </div>
                 </div>
-                @foreach ($post_populer as $item)
+                @forelse ($post_populer as $item)
                     <a href="{{ url('/berita/' . $item->slug) }}" class="text-reset text-decoration-none">
 
                         <div class="row my-3 p-2 container-post">
@@ -91,7 +102,11 @@
                             </div>
                         </div>
                     </a>
-                @endforeach
+                @empty
+                    <div class="col-md-12 p-2 text-center">
+                        <div class="post-populer-title">~ Berita tidak tersedia ~</div>
+                    </div>
+                @endforelse
 
             </div>
         </div>

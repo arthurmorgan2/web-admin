@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="row mt-0 m-4">
-                    @foreach ($gallery as $item)
+                    @forelse ($gallery as $item)
                         <div class="col-md-6 p-3">
                             <div class="card card-gallery-content">
                                 <div class="img-container d-flex justify-content-center align-items-center p-2">
@@ -34,7 +34,11 @@
                                 </div>
                             </div>
                         </div>
-                    @endforeach
+                    @empty
+                        <div class="col-md-12">
+                            <div class="card-text text-center">~ Foto Tidak Tersedia ~</div>
+                        </div>
+                    @endforelse
                 </div>
             </div>
         </div>
