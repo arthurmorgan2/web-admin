@@ -21,6 +21,6 @@ class DashboardController extends Controller
         ->groupBy('month')->get()->toArray();
 
         // dd($month);
-        return new DashboardResource(true, 'Data Pengunjung', $semua_data);
+        return new DashboardResource(true, 'Data Pengunjung', $month);
     }
 }
