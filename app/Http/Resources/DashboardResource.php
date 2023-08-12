@@ -13,8 +13,10 @@ class DashboardResource extends JsonResource
      * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
      */
 
+    //  prpoperties
     public $status;
     public $message;
+
 
     public function __construct($status, $message, $resource)
     {
