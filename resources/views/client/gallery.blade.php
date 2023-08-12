@@ -1,6 +1,6 @@
 @extends('layouts.client.app')
 @section('content')
-    <div class="container container-gallery">
+    <div class="container-fluid container-gallery">
         <div class="row">
             <div class="col-md-3">
                 <ul class="nav nav-pills nav-sidebar flex-column">
@@ -20,9 +20,9 @@
                         Daftar Foto
                     </div>
                 </div>
-                <div class="row mt-0 m-4">
+                <div class="row p-3">
                     @forelse ($gallery as $item)
-                        <div class="col-md-6 p-3">
+                        <div class="col-md-5 mb-4">
                             <div class="card card-gallery-content">
                                 <div class="img-container d-flex justify-content-center align-items-center p-2">
                                     <img src="{{ asset('uploads/' . $item->gambar_gallery) }}" class="card-img-top"
@@ -39,6 +39,9 @@
                             <div class="card-text text-center">~ Foto Tidak Tersedia ~</div>
                         </div>
                     @endforelse
+                </div>
+                <div class="col-md-10 d-flex justify-content-center">
+                    {{ $gallery->links() }}
                 </div>
             </div>
         </div>

@@ -59,8 +59,22 @@
                         <i class="nav-icon fa-solid fa-photo-film" style="color: white"></i>
                         <p style="color: white">
                             Gallery
+                            <i class="fas fa-angle-left right" style="color: white"></i>
                         </p>
                     </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ url('/data-gallery') }}" class="nav-link">
+                                <p style="font-size: 14px; color:white;">Tabel Foto</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/data-video') }}" class="nav-link">
+                                <p style="font-size: 14px; color:white;">Tabel Video</p>
+                            </a>
+                        </li>
+
+                    </ul>
                 </li>
         </nav>
         <!-- End Sidebar Menu -->

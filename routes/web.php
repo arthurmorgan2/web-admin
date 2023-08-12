@@ -11,6 +11,7 @@ use App\Http\Controllers\PengunjungController;
 use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\VideoController;
 
 //Client Side Routes
 Route::get('/', [FrontController::class, 'index']);
@@ -61,6 +62,12 @@ Route::get('/data-gallery', [GalleryController::class, 'showDataGallery'])->midd
 Route::post('/data-gallery/create', [GalleryController::class, 'create'])->name('create')->middleware('auth');
 Route::put('/data-gallery/update/{id}', [GalleryController::class, 'update'])->middleware('auth');
 Route::get('/data-gallery/delete/{id}', [GalleryController::class, 'delete'])->middleware('auth');
+
+//Data Gallery  Route
+Route::get('/data-video', [VideoController::class, 'showDataVideo'])->middleware('auth');
+Route::post('/data-video/create', [VideoController::class, 'create'])->name('create')->middleware('auth');
+Route::put('/data-video/update/{id}', [VideoController::class, 'update'])->middleware('auth');
+Route::get('/data-video/delete/{id}', [VideoController::class, 'delete'])->middleware('auth');
 
 //Data Pengunjung Dashboard API
 Route::apiResource('/dashboards', DashboardController::class);

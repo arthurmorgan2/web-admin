@@ -13,6 +13,7 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Pagination\Paginator;
 use App\Models\Pengunjung;
+use App\Models\Video;
 
 class FrontController extends Controller
 {
@@ -27,7 +28,7 @@ class FrontController extends Controller
     }
     public function showBerita()
     {
-        $artikel = Artikel::latest()->paginate(10);
+        $artikel = Artikel::latest()->paginate(3);
         $post_populer = Artikel::orderBy('views', 'desc')->limit('4')->get();
         $kategori = Kategori::all();
         return view('client/berita', compact('artikel', 'post_populer', 'kategori'));
@@ -92,11 +93,13 @@ class FrontController extends Controller
     }
     public function showGallery()
     {
-        $gallery = Gallery::all();
+        $gallery = Gallery::latest()->paginate(3);
         return view('/client/gallery', compact('gallery'));
     }
     public function showVideo()
     {
-        return view('/client/video');
+        $video = Video::latest()->paginate(3);
+
+        return view('/client/video', compact('video'));
     }
 }

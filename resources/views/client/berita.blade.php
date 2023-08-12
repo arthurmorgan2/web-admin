@@ -67,7 +67,9 @@
                         <div class="post-title">~ Berita tidak tersedia ~</div>
                     </div>
                 @endforelse
-
+                <div class="col-md-12 d-flex justify-content-center mt-4">
+                    {{ $artikel->links() }}
+                </div>
 
             </div>
             <div class="col-md-1 text-center">

@@ -12,22 +12,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
-                <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
+                <li class="nav-item {{ request()->is('/') ? 'nav-active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/">
                         Home
                     </a>
                 </li>
-                <li class="nav-item {{ request()->is('berita') ? 'active' : '' }}">
+                <li class="nav-item {{ request()->is('berita') ? 'nav-active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/berita">
                         Berita
                     </a>
                 </li>
-                <li class="nav-item {{ request()->is('gallery') ? 'active' : '' }}">
+                <li class="nav-item {{ request()->is('gallery') ? 'nav-active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/gallery">
                         Gallery
                     </a>
                 </li>
-                <li class="nav-item {{ request()->is('daftar-pengunjung') ? 'active' : '' }}">
+                <li class="nav-item {{ request()->is('daftar-pengunjung') ? 'nav-active' : '' }}">
                     <a class="nav-link text-white" aria-current="page" href="/daftar-pengunjung">
                         Daftar Pengunjung
                     </a>
