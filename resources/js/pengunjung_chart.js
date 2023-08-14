@@ -4,6 +4,8 @@ const res = {
     month: [],
     value: []
 };
+
+// connect to api
 fetch("http://localhost:8000/dashboards")
     .then( response => {
         if(!response.success){
@@ -12,8 +14,9 @@ fetch("http://localhost:8000/dashboards")
         return response.json()
     })
     .then( data => {
-        res.month = data.month;
-        res.value = data.count;
+        // res['month'] = data['month'];
+        // res['value'] = data['count'];
+        console.log(data);
     })
     .catch( error => {
         console.error(error)
@@ -40,7 +43,7 @@ const data = {
         label: 'Jumlah Pengunjung',
         backgroundColor: 'rgb(255, 99, 132)',
         borderColor: 'rgb(255, 99, 132)',
-        data: [res.value],
+        data: [res['value']],
     }]
 };
 
