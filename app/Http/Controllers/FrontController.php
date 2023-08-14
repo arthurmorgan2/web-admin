@@ -93,12 +93,12 @@ class FrontController extends Controller
     }
     public function showGallery()
     {
-        $gallery = Gallery::latest()->paginate(3);
+        $gallery = Gallery::latest()->paginate(6);
         return view('/client/gallery', compact('gallery'));
     }
     public function showVideo()
     {
-        $video = Video::latest()->paginate(3);
+        $video = Video::latest()->paginate(6);
 
         return view('/client/video', compact('video'));
     }

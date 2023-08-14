@@ -11,7 +11,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/gambar1.jpg') }}" class="d-block w-100 h-250" alt="..."
+                    <img src="{{ asset('assets/img/gambar12.webp') }}" class="d-block w-100 h-250" alt="..."
                         loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-1 text-center p-4">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/gambar2.jpg') }}" class="d-block w-100 h-250" alt="..."
+                    <img src="{{ asset('assets/img/gambar23.webp') }}" class="d-block w-100 h-250" alt="..."
                         loading="lazy">
                     <div class="container">
                         <div class="carousel-caption caption-2 text-center p-4">
