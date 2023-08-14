@@ -4,7 +4,9 @@
     <a href="#" class="brand-link" style="border-bottom: solid rgb(109, 109, 109) 1px; ">
         <img src="{{ asset('assets/img/logo.jpg') }}" alt="DPTR Logo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light" style="color: white" fa-bold>BALAI PPA DP3AP2 DIY</span>
+        <span class="sidebar-title" style="color: white; font-size:16px">BALAI
+            PPA
+            DP3AP2 DIY</span>
     </a>
 
     <!-- Brand Logo Dispetaru Admin -->
