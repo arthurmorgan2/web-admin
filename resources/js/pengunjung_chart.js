@@ -1,8 +1,8 @@
 import Chart from 'chart.js/auto';
 
 const res = {
-    month: [],
-    value: []
+    'month': [],
+    'value': []
 };
 
 // connect to api
@@ -14,9 +14,8 @@ fetch("http://localhost:8000/dashboards")
         return response.json()
     })
     .then( data => {
-        // res['month'] = data['month'];
-        // res['value'] = data['count'];
-        console.log(data);
+        res.month = data.data.map( item => item.month);
+        res.value = data.data.map( item => item.count);
     })
     .catch( error => {
         console.error(error)

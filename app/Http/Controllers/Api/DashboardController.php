@@ -11,8 +11,6 @@ use Illuminate\Support\Facades\DB;
 class DashboardController extends Controller
 {
     public function index(){
-        $semua_data = Pengunjung::all();
-
         $month = Pengunjung::select(
             DB::raw("(COUNT(*)) as count"),
             DB::raw("MONTHNAME(created_at) as month")
