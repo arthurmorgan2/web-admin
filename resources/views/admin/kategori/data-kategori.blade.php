@@ -105,8 +105,8 @@
                         <div class="mb-3">
                             <label for="nama_kategori" class="form-label">Nama Kategori Artikel Berita</label>
                             <input type="text" name="nama_kategori" id="nama_kategori"
-                                class="form-control @error('nama_kategori') is-invalid @enderror" placeholder="Event Klinik"
-                                autofocus required>
+                                class="form-control @error('nama_kategori') is-invalid @enderror"
+                                placeholder="Kategori Berita" autofocus required>
                         </div>
                 </div>
                 <div class="modal-footer">
