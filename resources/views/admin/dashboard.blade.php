@@ -59,10 +59,10 @@
                         <h4 class="my-3">Chart Data Pengunjung Bulanan</h4>
                         <canvas id="myChart"></canvas>
                     </div>
-                    <div class="col-md-6">
+                    {{-- <div class="col-md-6">
                         <h4 class="my-3">Kalender</h4>
 
-                    </div>
+                    </div> --}}
 
                     <script src="{{ mix('/js/app.js') }}"></script>
                 </div>
