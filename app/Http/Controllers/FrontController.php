@@ -28,7 +28,7 @@ class FrontController extends Controller
     }
     public function showBerita()
     {
-        $artikel = Artikel::latest()->paginate(3);
+        $artikel = Artikel::latest()->paginate(6);
         $post_populer = Artikel::orderBy('views', 'desc')->limit('4')->get();
         $kategori = Kategori::all();
         return view('client/berita', compact('artikel', 'post_populer', 'kategori'));
